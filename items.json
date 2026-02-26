@@ -2,33 +2,33 @@
   "metadata": {
     "title": "Soulframe - All Items",
     "description": "Every item in Soulframe: weapons, armor, totems, motes, runes, blueprints, resources, materials, currencies, cosmetics, consumables, and more. Each entry includes the internal path, language key for localisation, crafting recipe reference, and required ingredients.",
-    "generated_at": "2026-02-19T21:18:07Z",
+    "generated_at": "2026-02-26T15:51:19Z",
     "source": "Packages.bin (H.Misc cache) + Languages.json + crafting_recipes.json",
-    "total_items": 1244,
+    "total_items": 1259,
     "categories": {
       "Armor": 74,
-      "Blueprint": 267,
+      "Blueprint": 271,
       "Booster": 10,
-      "Bundle": 27,
-      "Consumable": 31,
+      "Bundle": 30,
+      "Consumable": 33,
       "Cosmetic": 116,
       "Dendria Word": 30,
-      "Key Item": 35,
+      "Key Item": 39,
       "Kintsugi": 87,
       "Misc Item": 1,
       "Mote": 170,
       "Pact Upgrade": 15,
       "Quest": 32,
-      "Resource": 139,
+      "Resource": 140,
       "Rune": 15,
       "Slot Item": 3,
       "Soul": 18,
       "Store Item": 10,
       "Technique": 90,
       "Totem": 23,
-      "Weapon": 51
+      "Weapon": 52
     },
-    "total_unique_ingredients": 106
+    "total_unique_ingredients": 107
   },
   "items": [
     {
@@ -6924,6 +6924,17 @@
       ]
     },
     {
+      "name": "Fenn Casting Device Ranged Melee Weapon Fragment",
+      "unique_name": "FennCastingDeviceRangedMeleeWeaponFragment",
+      "path": "/SF/Types/Recipes/Weapons/FennCastingDeviceRangedMeleeWeaponFragment",
+      "lang_key": null,
+      "lang_desc_key": null,
+      "category": "Blueprint",
+      "subcategory": "Weapons",
+      "rarity": null,
+      "icon": null
+    },
+    {
       "name": "Fenn Jotar Sword Fragment",
       "unique_name": "FennJotarSwordFragment",
       "path": "/SF/Types/Recipes/Weapons/FennJotarSwordFragment",
@@ -7324,6 +7335,46 @@
       "icon": null
     },
     {
+      "name": "Ode Soldier Sword Melee Weapon Blueprint",
+      "unique_name": "OdeSoldierSwordMeleeWeaponBlueprint",
+      "path": "/SF/StoreItems/Types/Recipes/Weapons/OdeSoldierSwordMeleeWeaponBlueprint",
+      "lang_key": "/SF/Language/Weapons/OdeSoldierSwordMeleeWeaponName",
+      "lang_desc_key": "/SF/Language/Weapons/OdeSoldierSwordMeleeWeaponDesc",
+      "category": "Blueprint",
+      "subcategory": "Weapons",
+      "rarity": "UNCOMMON",
+      "icon": "/SF/Interface/Graphics/StoreItems/Weapons/SinecureSword.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Weapons/OdeSoldierSwordMeleeWeaponBlueprint",
+      "ingredients": [
+        {
+          "item": "OdeGraphiteResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/OdeGraphiteResource",
+          "count": 20
+        },
+        {
+          "item": "ScrapBrassResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapBrassResource",
+          "count": 25
+        },
+        {
+          "item": "IchorResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/IchorResource",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "name": "Ode Soldier Sword Melee Weapon Fragment",
+      "unique_name": "OdeSoldierSwordMeleeWeaponFragment",
+      "path": "/SF/Types/Recipes/Weapons/OdeSoldierSwordMeleeWeaponFragment",
+      "lang_key": null,
+      "lang_desc_key": null,
+      "category": "Blueprint",
+      "subcategory": "Weapons",
+      "rarity": null,
+      "icon": null
+    },
+    {
       "name": "Odiac",
       "unique_name": "OdeCastingDeviceRangedMeleeWeaponBlueprint",
       "path": "/SF/StoreItems/Types/Recipes/Weapons/OdeCastingDeviceRangedMeleeWeaponBlueprint",
@@ -7660,6 +7711,17 @@
           "count": 6
         }
       ]
+    },
+    {
+      "name": "Sinecure Bow Ranged Melee Weapon Fragment",
+      "unique_name": "SinecureBowRangedMeleeWeaponFragment",
+      "path": "/SF/Types/Recipes/Weapons/SinecureBowRangedMeleeWeaponFragment",
+      "lang_key": null,
+      "lang_desc_key": null,
+      "category": "Blueprint",
+      "subcategory": "Weapons",
+      "rarity": null,
+      "icon": null
     },
     {
       "name": "Sinecure Dual Daggers Melee Weapon Fragment",
@@ -8741,6 +8803,39 @@
       "icon": "/SF/Interface/Graphics/StoreItems/Currency/OdeCoinLarge.png"
     },
     {
+      "name": "Dracs",
+      "unique_name": "DracsLargeQuestBundle",
+      "path": "/SF/StoreItems/Types/StoreItems/DracBundles/DracsLargeQuestBundle",
+      "lang_key": "/SF/Language/Currency/CurrencyName",
+      "lang_desc_key": "/SF/Language/Currency/DracsBundleBDesc",
+      "category": "Bundle",
+      "subcategory": "Currency Bundle",
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/StoreItems/Currency/Coin3.png"
+    },
+    {
+      "name": "Dracs",
+      "unique_name": "DracsMediumQuestBundle",
+      "path": "/SF/StoreItems/Types/StoreItems/DracBundles/DracsMediumQuestBundle",
+      "lang_key": "/SF/Language/Currency/CurrencyName",
+      "lang_desc_key": "/SF/Language/Currency/DracsBundleBDesc",
+      "category": "Bundle",
+      "subcategory": "Currency Bundle",
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/StoreItems/Currency/Coin4.png"
+    },
+    {
+      "name": "Dracs",
+      "unique_name": "DracsSmallQuestBundle",
+      "path": "/SF/StoreItems/Types/StoreItems/DracBundles/DracsSmallQuestBundle",
+      "lang_key": "/SF/Language/Currency/CurrencyName",
+      "lang_desc_key": "/SF/Language/Currency/DracsBundleBDesc",
+      "category": "Bundle",
+      "subcategory": "Currency Bundle",
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/StoreItems/Currency/Coin2.png"
+    },
+    {
       "name": "Arbearer's Bounty",
       "unique_name": "BromiusArmorPactBundle",
       "path": "/SF/Types/StoreItems/PactBundles/BromiusArmorPactBundle",
@@ -9233,6 +9328,17 @@
       ]
     },
     {
+      "name": "Red Night Elixir Pickup",
+      "unique_name": "RedNightElixirPickup",
+      "path": "/SF/Types/Items/Consumables/RedNightElixirPickup",
+      "lang_key": null,
+      "lang_desc_key": null,
+      "category": "Consumable",
+      "subcategory": "Elixir",
+      "rarity": null,
+      "icon": null
+    },
+    {
       "name": "Red Night Upgrade",
       "unique_name": "RedNightUpgrade",
       "path": "/SF/Types/Items/Consumables/RedNightUpgrade",
@@ -9369,6 +9475,17 @@
       "subcategory": "Elixir",
       "rarity": null,
       "icon": "/SF/Interface/Graphics/StoreItems/Pickups/Acorn.png"
+    },
+    {
+      "name": "Wolf Cub Summon",
+      "unique_name": "WolfCubSummon",
+      "path": "/SF/StoreItems/Types/Items/Consumables/WolfCubSummon",
+      "lang_key": null,
+      "lang_desc_key": null,
+      "category": "Consumable",
+      "subcategory": "Elixir",
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/AbilityIcons/WhiteNoBacker/WolfHowl.png"
     },
     {
       "name": "Wolf Summon",
@@ -11153,7 +11270,18 @@
       "category": "Key Item",
       "subcategory": "Faction Item",
       "rarity": null,
-      "icon": "/SF/Interface/Graphics/Factions/Champion/ChampionFaction.png"
+      "icon": "/SF/Interface/Graphics/StoreItems/Pickups/FactionOdeTags.png"
+    },
+    {
+      "name": "Champion Syndicate Rep Token Pickup",
+      "unique_name": "ChampionSyndicateRepTokenPickup",
+      "path": "/SF/Types/Items/FactionItems/ChampionSyndicateRepTokenPickup",
+      "lang_key": null,
+      "lang_desc_key": null,
+      "category": "Key Item",
+      "subcategory": "Faction Item",
+      "rarity": null,
+      "icon": null
     },
     {
       "name": "Fey Syndicate Hub Door Key",
@@ -11186,7 +11314,18 @@
       "category": "Key Item",
       "subcategory": "Faction Item",
       "rarity": null,
-      "icon": "/SF/Interface/Graphics/Factions/Alca/AlcasChildrenFactionIcon.png"
+      "icon": "/SF/Interface/Graphics/StoreItems/Pickups/FactionAncientSeed.png"
+    },
+    {
+      "name": "Fey Syndicate Rep Token Pickup",
+      "unique_name": "FeySyndicateRepTokenPickup",
+      "path": "/SF/Types/Items/FactionItems/FeySyndicateRepTokenPickup",
+      "lang_key": null,
+      "lang_desc_key": null,
+      "category": "Key Item",
+      "subcategory": "Faction Item",
+      "rarity": null,
+      "icon": null
     },
     {
       "name": "Flask of Gloaming",
@@ -11219,7 +11358,29 @@
       "category": "Key Item",
       "subcategory": "Faction Item",
       "rarity": null,
-      "icon": "/SF/Interface/Graphics/Factions/SilentRose/SilentRoseFactionIcon.png"
+      "icon": "/SF/Interface/Graphics/StoreItems/Pickups/FactionOdeIntel.png"
+    },
+    {
+      "name": "Silent Rose Syndicate Rep Token Pickup",
+      "unique_name": "SilentRoseSyndicateRepTokenPickup",
+      "path": "/SF/Types/Items/FactionItems/SilentRoseSyndicateRepTokenPickup",
+      "lang_key": null,
+      "lang_desc_key": null,
+      "category": "Key Item",
+      "subcategory": "Faction Item",
+      "rarity": null,
+      "icon": null
+    },
+    {
+      "name": "Syndicate Rep Token",
+      "unique_name": "SyndicateRepToken",
+      "path": "/SF/Types/Items/FactionItems/SyndicateRepToken",
+      "lang_key": null,
+      "lang_desc_key": null,
+      "category": "Key Item",
+      "subcategory": "Faction Item",
+      "rarity": null,
+      "icon": null
     },
     {
       "name": "Bisulcam Fodder",
@@ -14950,17 +15111,6 @@
     },
     {
       "name": "The Astute",
-      "unique_name": "BeaverMotePassiveTotemSetA",
-      "path": "/SF/StoreItems/Upgrades/Motes/Polearms/Beaver/TotemSetA/BeaverMotePassiveTotemSetA",
-      "lang_key": "/SF/Language/Motes/DeerMoteTotemSetAPoleArmsName",
-      "lang_desc_key": "/SF/Language/Motes/DeerMoteTotemSetAPoleArmsDesc",
-      "category": "Mote",
-      "subcategory": "Polearm",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/Animotes/Animals/Beaver.png"
-    },
-    {
-      "name": "The Astute",
       "unique_name": "DeerMotePassiveTotemSetA",
       "path": "/SF/StoreItems/Upgrades/Motes/Polearms/Deer/TotemSetA/DeerMotePassiveTotemSetA",
       "lang_key": "/SF/Language/Motes/DeerMoteTotemSetAPoleArmsName",
@@ -14991,6 +15141,17 @@
       "subcategory": "Polearm",
       "rarity": null,
       "icon": "/SF/Interface/Graphics/Animotes/Animals/RabbitSpirit.png"
+    },
+    {
+      "name": "The Carver",
+      "unique_name": "BeaverMotePassiveTotemSetA",
+      "path": "/SF/StoreItems/Upgrades/Motes/Polearms/Beaver/TotemSetA/BeaverMotePassiveTotemSetA",
+      "lang_key": "/SF/Language/Motes/BeaverMoteTotemSetAPolearmsName",
+      "lang_desc_key": "/SF/Language/Motes/BeaverMoteTotemSetAPolearmsDesc",
+      "category": "Mote",
+      "subcategory": "Polearm",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/Animotes/Animals/Beaver.png"
     },
     {
       "name": "The Drudger",
@@ -15805,6 +15966,17 @@
       "subcategory": "Quest",
       "rarity": null,
       "icon": null
+    },
+    {
+      "name": "A Birdie Flown Bundle",
+      "unique_name": "ABirdieFlownBundle",
+      "path": "/SF/Types/PickUps/Resources/Bundles/SidequestRewardsBundles/ABirdieFlownBundle",
+      "lang_key": null,
+      "lang_desc_key": null,
+      "category": "Resource",
+      "subcategory": "Bundles",
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/StoreItems/Pickups/Pouch1.png"
     },
     {
       "name": "Burning Sage Bundle",
@@ -19986,6 +20158,50 @@
       }
     },
     {
+      "name": "Ode Soldier Sword Melee Weapon",
+      "unique_name": "OdeSoldierSwordMeleeWeapon",
+      "path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
+      "lang_key": "/SF/Language/Weapons/OdeSoldierSwordMeleeWeaponName",
+      "lang_desc_key": "/SF/Language/Weapons/OdeSoldierSwordMeleeWeaponDesc",
+      "category": "Weapon",
+      "subcategory": "Melee",
+      "rarity": "UNCOMMON",
+      "icon": "/SF/Interface/Graphics/StoreItems/Weapons/SinecureSword.png",
+      "crafting_recipe": "/SF/Types/Recipes/Weapons/OdeSoldierSwordMeleeWeaponReforgeBlueprint",
+      "ingredients": [
+        {
+          "item": "OdeSoldierSwordMeleeWeapon",
+          "item_path": "/SF/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
+          "count": 1
+        },
+        {
+          "item": "OdeGraphiteResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/OdeGraphiteResource",
+          "count": 25
+        },
+        {
+          "item": "ScrapBrassResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapBrassResource",
+          "count": 25
+        },
+        {
+          "item": "IchorResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/IchorResource",
+          "count": 20
+        },
+        {
+          "item": "BaseKintsugiWeaponUpgrade",
+          "item_path": "/SF/Types/Items/Kintsugi/BaseKintsugiWeaponUpgrade",
+          "count": 1
+        }
+      ],
+      "ingredient_alternatives": {
+        "BaseKintsugiWeaponUpgrade": [
+          "/SF/Types/Items/Kintsugi/BaseKintsugiUniversalUpgrade"
+        ]
+      }
+    },
+    {
       "name": "Oryn-Umbr",
       "unique_name": "SphereSwordAndBoardMeleeWeapon",
       "path": "/SF/StoreItems/Weapons/Melee/OneHand/SwordandBoard/SphereSwordAndBoardMeleeWeapon",
@@ -20361,9 +20577,9 @@
       "crafting_recipe": "/SF/Types/Recipes/Weapons/PothiaSwordMeleeWeaponReforgeBlueprint",
       "ingredients": [
         {
-          "item": "ScrapSteelResource",
-          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapSteelResource",
-          "count": 20
+          "item": "OdeGraphiteResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/OdeGraphiteResource",
+          "count": 25
         },
         {
           "item": "QuenchingAcidResource",
@@ -21581,6 +21797,11 @@
         {
           "item": "Nurash",
           "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/MockeryTurash/MockeryTurashMeleeWeapon",
+          "count": 1
+        },
+        {
+          "item": "Ode Soldier Sword Melee Weapon",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
           "count": 1
         },
         {
@@ -23594,6 +23815,11 @@
           "count": 20
         },
         {
+          "item": "Ode Soldier Sword Melee Weapon Blueprint",
+          "item_path": "/SF/StoreItems/Types/Recipes/Weapons/OdeSoldierSwordMeleeWeaponBlueprint",
+          "count": 20
+        },
+        {
           "item": "Rook",
           "item_path": "/SF/StoreItems/Types/Recipes/Weapons/DeoraSpearBlueprint",
           "count": 20
@@ -23641,6 +23867,11 @@
         {
           "item": "Nurash",
           "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/MockeryTurash/MockeryTurashMeleeWeapon",
+          "count": 20
+        },
+        {
+          "item": "Ode Soldier Sword Melee Weapon",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
           "count": 20
         },
         {
@@ -24369,6 +24600,11 @@
           "count": 30
         },
         {
+          "item": "Ode Soldier Sword Melee Weapon Blueprint",
+          "item_path": "/SF/StoreItems/Types/Recipes/Weapons/OdeSoldierSwordMeleeWeaponBlueprint",
+          "count": 20
+        },
+        {
           "item": "Odiac",
           "item_path": "/SF/StoreItems/Types/Recipes/Weapons/OdeCastingDeviceRangedMeleeWeaponBlueprint",
           "count": 25
@@ -24404,6 +24640,11 @@
           "count": 30
         },
         {
+          "item": "Ode Soldier Sword Melee Weapon",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
+          "count": 25
+        },
+        {
           "item": "Rivt-II",
           "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/SphereDualSwords/SphereDualSwordsMeleeWeapon",
           "count": 30
@@ -24414,9 +24655,24 @@
           "count": 30
         },
         {
+          "item": "The Ivor",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/PothiaLongSword/PothiaLongSwordMeleeWeapon",
+          "count": 25
+        },
+        {
           "item": "Odiac",
           "item_path": "/SF/StoreItems/Weapons/Ranged/OneHand/OdeCastingDevice/OdeCastingDeviceRangedMeleeWeapon",
           "count": 25
+        }
+      ]
+    },
+    "OdeSoldierSwordMeleeWeapon": {
+      "item_path": "/SF/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
+      "used_by": [
+        {
+          "item": "Ode Soldier Sword Melee Weapon",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
+          "count": 1
         }
       ]
     },
@@ -25659,6 +25915,11 @@
           "count": 25
         },
         {
+          "item": "Ode Soldier Sword Melee Weapon Blueprint",
+          "item_path": "/SF/StoreItems/Types/Recipes/Weapons/OdeSoldierSwordMeleeWeaponBlueprint",
+          "count": 25
+        },
+        {
           "item": "Precklies",
           "item_path": "/SF/StoreItems/Types/Recipes/Weapons/SecondaryStarterThrowingKnivesRangedMeleeWeaponBlueprint",
           "count": 10
@@ -25787,6 +26048,11 @@
           "item": "Needleseye",
           "item_path": "/SF/StoreItems/Weapons/Melee/TwoHand/DendritAraGreatSword/DendritAraGreatSwordMeleeWeapon",
           "count": 20
+        },
+        {
+          "item": "Ode Soldier Sword Melee Weapon",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
+          "count": 25
         },
         {
           "item": "Stultin",
@@ -27067,11 +27333,6 @@
           "item": "Sollos-I",
           "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/SphereSword/SphereSwordMeleeWeapon",
           "count": 25
-        },
-        {
-          "item": "The Ivor",
-          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/PothiaLongSword/PothiaLongSwordMeleeWeapon",
-          "count": 20
         },
         {
           "item": "Unsula",
