@@ -2,31 +2,32 @@
   "metadata": {
     "title": "Soulframe - All Items",
     "description": "Every item in Soulframe: weapons, armor, totems, motes, runes, blueprints, resources, materials, currencies, cosmetics, consumables, and more. Each entry includes the internal path, language key for localisation, crafting recipe reference, and required ingredients.",
-    "generated_at": "2026-02-26T15:51:19Z",
+    "generated_at": "2026-04-17T20:47:05Z",
     "source": "Packages.bin (H.Misc cache) + Languages.json + crafting_recipes.json",
-    "total_items": 1259,
+    "total_items": 1261,
     "categories": {
-      "Armor": 74,
-      "Blueprint": 271,
+      "Armor": 81,
+      "Blueprint": 267,
       "Booster": 10,
-      "Bundle": 30,
-      "Consumable": 33,
+      "Bundle": 27,
+      "Consumable": 31,
       "Cosmetic": 116,
+      "Crafted Item": 4,
       "Dendria Word": 30,
-      "Key Item": 39,
+      "Key Item": 35,
       "Kintsugi": 87,
       "Misc Item": 1,
       "Mote": 170,
       "Pact Upgrade": 15,
       "Quest": 32,
-      "Resource": 140,
+      "Resource": 139,
       "Rune": 15,
       "Slot Item": 3,
       "Soul": 18,
       "Store Item": 10,
       "Technique": 90,
       "Totem": 23,
-      "Weapon": 52
+      "Weapon": 57
     },
     "total_unique_ingredients": 107
   },
@@ -578,6 +579,204 @@
       "subcategory": "Body",
       "rarity": "UNCOMMON",
       "icon": "/SF/Interface/Graphics/StoreItems/Cuirass/TethrenCuirass.png"
+    },
+    {
+      "name": "Duelo Ribbon",
+      "unique_name": "FencerQuestItemHelmet",
+      "path": "/SF/StoreItems/Upgrades/Skins/Helmets/FencerQuestItemHelmet",
+      "lang_key": "/SF/Language/Armour/FencerQuestItemHelmetName",
+      "lang_desc_key": null,
+      "category": "Armor",
+      "subcategory": "Crafted",
+      "rarity": "UNCOMMON",
+      "icon": "/SF/Interface/Graphics/StoreItems/Helmets/FencerQuestItemHelmet.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Armor/FencerQuestItemHelmetBlueprint",
+      "ingredients": [
+        {
+          "item": "WornLeatherResource",
+          "item_path": "/SF/Types/PickUps/Resources/Textiles/WornLeatherResource",
+          "count": 5
+        },
+        {
+          "item": "DendritWeaveResource",
+          "item_path": "/SF/Types/PickUps/Resources/Textiles/DendritWeaveResource",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "Mestra's Breeches",
+      "unique_name": "FencerLegs",
+      "path": "/SF/StoreItems/Upgrades/Skins/Legs/FencerLegs",
+      "lang_key": "/SF/Language/Armour/FencerLegsName",
+      "lang_desc_key": null,
+      "category": "Armor",
+      "subcategory": "Crafted",
+      "rarity": "UNCOMMON",
+      "icon": "/SF/Interface/Graphics/StoreItems/Leggings/SeedLeggings.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Armor/FencerLegsBlueprint",
+      "ingredients": [
+        {
+          "item": "DendritWeaveResource",
+          "item_path": "/SF/Types/PickUps/Resources/Textiles/DendritWeaveResource",
+          "count": 30
+        },
+        {
+          "item": "ScrapSteelResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapSteelResource",
+          "count": 30
+        },
+        {
+          "item": "WornLeatherResource",
+          "item_path": "/SF/Types/PickUps/Resources/Textiles/WornLeatherResource",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "name": "Mestra's Furbelow",
+      "unique_name": "FencerBody",
+      "path": "/SF/StoreItems/Upgrades/Skins/Body/FencerBody",
+      "lang_key": "/SF/Language/Armour/FencerBodyName",
+      "lang_desc_key": null,
+      "category": "Armor",
+      "subcategory": "Crafted",
+      "rarity": "UNCOMMON",
+      "icon": "/SF/Interface/Graphics/StoreItems/Cuirass/SeedCuirass.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Armor/FencerTorsoBlueprint",
+      "ingredients": [
+        {
+          "item": "WornLeatherResource",
+          "item_path": "/SF/Types/PickUps/Resources/Textiles/WornLeatherResource",
+          "count": 30
+        },
+        {
+          "item": "DendritWeaveResource",
+          "item_path": "/SF/Types/PickUps/Resources/Textiles/DendritWeaveResource",
+          "count": 30
+        },
+        {
+          "item": "ScrapBrassResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapBrassResource",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "name": "Mestra's Helm",
+      "unique_name": "FencerHelmet",
+      "path": "/SF/StoreItems/Upgrades/Skins/Helmets/FencerHelmet",
+      "lang_key": "/SF/Language/Armour/FencerHelmetName",
+      "lang_desc_key": null,
+      "category": "Armor",
+      "subcategory": "Crafted",
+      "rarity": "UNCOMMON",
+      "icon": "/SF/Interface/Graphics/StoreItems/Helmets/SeedHelmet.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Armor/FencerHelmBlueprint",
+      "ingredients": [
+        {
+          "item": "ScrapBrassResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapBrassResource",
+          "count": 20
+        },
+        {
+          "item": "WornLeatherResource",
+          "item_path": "/SF/Types/PickUps/Resources/Textiles/WornLeatherResource",
+          "count": 30
+        },
+        {
+          "item": "DendritWeaveResource",
+          "item_path": "/SF/Types/PickUps/Resources/Textiles/DendritWeaveResource",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "name": "Pensive's Bonnet",
+      "unique_name": "OrlickHelmet",
+      "path": "/SF/StoreItems/Upgrades/Skins/Helmets/OrlickHelmet",
+      "lang_key": "/SF/Language/Armour/OrlickHelmName",
+      "lang_desc_key": null,
+      "category": "Armor",
+      "subcategory": "Crafted",
+      "rarity": "UNCOMMON",
+      "icon": "/SF/Interface/Graphics/StoreItems/Helmets/OrlickHelmet.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Armor/OrlickHelmBlueprint",
+      "ingredients": [
+        {
+          "item": "DendritWeaveResource",
+          "item_path": "/SF/Types/PickUps/Resources/Textiles/DendritWeaveResource",
+          "count": 15
+        },
+        {
+          "item": "WornLeatherResource",
+          "item_path": "/SF/Types/PickUps/Resources/Textiles/WornLeatherResource",
+          "count": 15
+        },
+        {
+          "item": "RiverPearlResource",
+          "item_path": "/SF/Types/PickUps/Resources/Organics/RiverPearlResource",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Pensive's Cloak",
+      "unique_name": "OrlickBody",
+      "path": "/SF/StoreItems/Upgrades/Skins/Body/OrlickBody",
+      "lang_key": "/SF/Language/Armour/OrlickBodyName",
+      "lang_desc_key": null,
+      "category": "Armor",
+      "subcategory": "Crafted",
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/StoreItems/Cuirass/OrlickCuirass.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Armor/OrlickTorsoBlueprint",
+      "ingredients": [
+        {
+          "item": "DendritWeaveResource",
+          "item_path": "/SF/Types/PickUps/Resources/Textiles/DendritWeaveResource",
+          "count": 15
+        },
+        {
+          "item": "WornLeatherResource",
+          "item_path": "/SF/Types/PickUps/Resources/Textiles/WornLeatherResource",
+          "count": 15
+        },
+        {
+          "item": "GossamerQuartzResource",
+          "item_path": "/SF/Types/PickUps/Resources/Organics/GossamerQuartzResource",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "name": "Pensive's Pantaloons",
+      "unique_name": "OrlickLegs",
+      "path": "/SF/StoreItems/Upgrades/Skins/Legs/OrlickLegs",
+      "lang_key": "/SF/Language/Armour/OrlickLegsName",
+      "lang_desc_key": null,
+      "category": "Armor",
+      "subcategory": "Crafted",
+      "rarity": "UNCOMMON",
+      "icon": "/SF/Interface/Graphics/StoreItems/Leggings/OrlickLeggings.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Armor/OrlickLegsBlueprint",
+      "ingredients": [
+        {
+          "item": "WornLeatherResource",
+          "item_path": "/SF/Types/PickUps/Resources/Textiles/WornLeatherResource",
+          "count": 15
+        },
+        {
+          "item": "DendritWeaveResource",
+          "item_path": "/SF/Types/PickUps/Resources/Textiles/DendritWeaveResource",
+          "count": 15
+        },
+        {
+          "item": "GossamerQuartzResource",
+          "item_path": "/SF/Types/PickUps/Resources/Organics/GossamerQuartzResource",
+          "count": 10
+        }
+      ]
     },
     {
       "name": "Arbearer's Mask",
@@ -6695,6 +6894,35 @@
       ]
     },
     {
+      "name": "Avex",
+      "unique_name": "SinecureBowRangedMeleeWeaponBlueprint",
+      "path": "/SF/StoreItems/Types/Recipes/Weapons/SinecureBowRangedMeleeWeaponBlueprint",
+      "lang_key": "/SF/Language/Weapons/SinecureBowRangedMeleeWeaponName",
+      "lang_desc_key": "/SF/Language/Weapons/SinecureBowRangedMeleeWeaponDesc",
+      "category": "Blueprint",
+      "subcategory": "Weapons",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Weapons/SinecureBow.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Weapons/SinecureBowRangedMeleeWeaponBlueprint",
+      "ingredients": [
+        {
+          "item": "ScrapBrassResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapBrassResource",
+          "count": 15
+        },
+        {
+          "item": "CorruptOnyxResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/CorruptOnyxResource",
+          "count": 15
+        },
+        {
+          "item": "PetrifiedIchorResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/PetrifiedIchorResource",
+          "count": 6
+        }
+      ]
+    },
+    {
       "name": "Basker's Wrest",
       "unique_name": "FennCastingDeviceRangedMeleeWeaponBlueprint",
       "path": "/SF/StoreItems/Types/Recipes/Weapons/FennCastingDeviceRangedMeleeWeaponBlueprint",
@@ -6922,17 +7150,6 @@
           "count": 5
         }
       ]
-    },
-    {
-      "name": "Fenn Casting Device Ranged Melee Weapon Fragment",
-      "unique_name": "FennCastingDeviceRangedMeleeWeaponFragment",
-      "path": "/SF/Types/Recipes/Weapons/FennCastingDeviceRangedMeleeWeaponFragment",
-      "lang_key": null,
-      "lang_desc_key": null,
-      "category": "Blueprint",
-      "subcategory": "Weapons",
-      "rarity": null,
-      "icon": null
     },
     {
       "name": "Fenn Jotar Sword Fragment",
@@ -7335,46 +7552,6 @@
       "icon": null
     },
     {
-      "name": "Ode Soldier Sword Melee Weapon Blueprint",
-      "unique_name": "OdeSoldierSwordMeleeWeaponBlueprint",
-      "path": "/SF/StoreItems/Types/Recipes/Weapons/OdeSoldierSwordMeleeWeaponBlueprint",
-      "lang_key": "/SF/Language/Weapons/OdeSoldierSwordMeleeWeaponName",
-      "lang_desc_key": "/SF/Language/Weapons/OdeSoldierSwordMeleeWeaponDesc",
-      "category": "Blueprint",
-      "subcategory": "Weapons",
-      "rarity": "UNCOMMON",
-      "icon": "/SF/Interface/Graphics/StoreItems/Weapons/SinecureSword.png",
-      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Weapons/OdeSoldierSwordMeleeWeaponBlueprint",
-      "ingredients": [
-        {
-          "item": "OdeGraphiteResource",
-          "item_path": "/SF/Types/PickUps/Resources/Inorganics/OdeGraphiteResource",
-          "count": 20
-        },
-        {
-          "item": "ScrapBrassResource",
-          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapBrassResource",
-          "count": 25
-        },
-        {
-          "item": "IchorResource",
-          "item_path": "/SF/Types/PickUps/Resources/Inorganics/IchorResource",
-          "count": 20
-        }
-      ]
-    },
-    {
-      "name": "Ode Soldier Sword Melee Weapon Fragment",
-      "unique_name": "OdeSoldierSwordMeleeWeaponFragment",
-      "path": "/SF/Types/Recipes/Weapons/OdeSoldierSwordMeleeWeaponFragment",
-      "lang_key": null,
-      "lang_desc_key": null,
-      "category": "Blueprint",
-      "subcategory": "Weapons",
-      "rarity": null,
-      "icon": null
-    },
-    {
       "name": "Odiac",
       "unique_name": "OdeCastingDeviceRangedMeleeWeaponBlueprint",
       "path": "/SF/StoreItems/Types/Recipes/Weapons/OdeCastingDeviceRangedMeleeWeaponBlueprint",
@@ -7676,46 +7853,6 @@
       "name": "Secondary Vine Dagger Melee Weapon Fragment",
       "unique_name": "SecondaryVineDaggerMeleeWeaponFragment",
       "path": "/SF/Types/Recipes/Weapons/SecondaryVineDaggerMeleeWeaponFragment",
-      "lang_key": null,
-      "lang_desc_key": null,
-      "category": "Blueprint",
-      "subcategory": "Weapons",
-      "rarity": null,
-      "icon": null
-    },
-    {
-      "name": "Sinecure Bow Ranged Melee Weapon Blueprint",
-      "unique_name": "SinecureBowRangedMeleeWeaponBlueprint",
-      "path": "/SF/StoreItems/Types/Recipes/Weapons/SinecureBowRangedMeleeWeaponBlueprint",
-      "lang_key": "/SF/Language/Weapons/SinecureBowRangedMeleeWeaponName",
-      "lang_desc_key": "/SF/Language/Weapons/SinecureBowRangedMeleeWeaponDesc",
-      "category": "Blueprint",
-      "subcategory": "Weapons",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Weapons/SinecureBow.png",
-      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Weapons/SinecureBowRangedMeleeWeaponBlueprint",
-      "ingredients": [
-        {
-          "item": "ScrapBrassResource",
-          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapBrassResource",
-          "count": 15
-        },
-        {
-          "item": "CorruptOnyxResource",
-          "item_path": "/SF/Types/PickUps/Resources/Inorganics/CorruptOnyxResource",
-          "count": 15
-        },
-        {
-          "item": "PetrifiedIchorResource",
-          "item_path": "/SF/Types/PickUps/Resources/Inorganics/PetrifiedIchorResource",
-          "count": 6
-        }
-      ]
-    },
-    {
-      "name": "Sinecure Bow Ranged Melee Weapon Fragment",
-      "unique_name": "SinecureBowRangedMeleeWeaponFragment",
-      "path": "/SF/Types/Recipes/Weapons/SinecureBowRangedMeleeWeaponFragment",
       "lang_key": null,
       "lang_desc_key": null,
       "category": "Blueprint",
@@ -8803,39 +8940,6 @@
       "icon": "/SF/Interface/Graphics/StoreItems/Currency/OdeCoinLarge.png"
     },
     {
-      "name": "Dracs",
-      "unique_name": "DracsLargeQuestBundle",
-      "path": "/SF/StoreItems/Types/StoreItems/DracBundles/DracsLargeQuestBundle",
-      "lang_key": "/SF/Language/Currency/CurrencyName",
-      "lang_desc_key": "/SF/Language/Currency/DracsBundleBDesc",
-      "category": "Bundle",
-      "subcategory": "Currency Bundle",
-      "rarity": null,
-      "icon": "/SF/Interface/Graphics/StoreItems/Currency/Coin3.png"
-    },
-    {
-      "name": "Dracs",
-      "unique_name": "DracsMediumQuestBundle",
-      "path": "/SF/StoreItems/Types/StoreItems/DracBundles/DracsMediumQuestBundle",
-      "lang_key": "/SF/Language/Currency/CurrencyName",
-      "lang_desc_key": "/SF/Language/Currency/DracsBundleBDesc",
-      "category": "Bundle",
-      "subcategory": "Currency Bundle",
-      "rarity": null,
-      "icon": "/SF/Interface/Graphics/StoreItems/Currency/Coin4.png"
-    },
-    {
-      "name": "Dracs",
-      "unique_name": "DracsSmallQuestBundle",
-      "path": "/SF/StoreItems/Types/StoreItems/DracBundles/DracsSmallQuestBundle",
-      "lang_key": "/SF/Language/Currency/CurrencyName",
-      "lang_desc_key": "/SF/Language/Currency/DracsBundleBDesc",
-      "category": "Bundle",
-      "subcategory": "Currency Bundle",
-      "rarity": null,
-      "icon": "/SF/Interface/Graphics/StoreItems/Currency/Coin2.png"
-    },
-    {
       "name": "Arbearer's Bounty",
       "unique_name": "BromiusArmorPactBundle",
       "path": "/SF/Types/StoreItems/PactBundles/BromiusArmorPactBundle",
@@ -9328,17 +9432,6 @@
       ]
     },
     {
-      "name": "Red Night Elixir Pickup",
-      "unique_name": "RedNightElixirPickup",
-      "path": "/SF/Types/Items/Consumables/RedNightElixirPickup",
-      "lang_key": null,
-      "lang_desc_key": null,
-      "category": "Consumable",
-      "subcategory": "Elixir",
-      "rarity": null,
-      "icon": null
-    },
-    {
       "name": "Red Night Upgrade",
       "unique_name": "RedNightUpgrade",
       "path": "/SF/Types/Items/Consumables/RedNightUpgrade",
@@ -9475,17 +9568,6 @@
       "subcategory": "Elixir",
       "rarity": null,
       "icon": "/SF/Interface/Graphics/StoreItems/Pickups/Acorn.png"
-    },
-    {
-      "name": "Wolf Cub Summon",
-      "unique_name": "WolfCubSummon",
-      "path": "/SF/StoreItems/Types/Items/Consumables/WolfCubSummon",
-      "lang_key": null,
-      "lang_desc_key": null,
-      "category": "Consumable",
-      "subcategory": "Elixir",
-      "rarity": null,
-      "icon": "/SF/Interface/Graphics/AbilityIcons/WhiteNoBacker/WolfHowl.png"
     },
     {
       "name": "Wolf Summon",
@@ -10888,6 +10970,112 @@
       "icon": "/SF/Interface/Graphics/StoreItems/Materials/MoonsteelBundle2.png"
     },
     {
+      "name": "Brass Ingot",
+      "unique_name": "BrassIngotResourceItem",
+      "path": "/SF/StoreItems/Types/PickUps/Resources/Ingots/BrassIngotResourceItem",
+      "lang_key": "/SF/Language/Materials/BrassIngotName",
+      "lang_desc_key": null,
+      "category": "Crafted Item",
+      "subcategory": "Other",
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/IngotBrass.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Quests/OrlickProgression/BrassIngotBlueprint",
+      "ingredients": [
+        {
+          "item": "ScrapBrassResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapBrassResource",
+          "count": 20
+        },
+        {
+          "item": "KnotwoodPlanksResource",
+          "item_path": "/SF/Types/PickUps/Resources/Organics/KnotwoodPlanksResource",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "name": "Duelo",
+      "unique_name": "FencerSoul",
+      "path": "/SF/StoreItems/Souls/Fencer/FencerSoul",
+      "lang_key": "/SF/Language/Pacts/FencerSoulName",
+      "lang_desc_key": null,
+      "category": "Crafted Item",
+      "subcategory": "Other",
+      "rarity": "UNCOMMON",
+      "icon": "/SF/Interface/Graphics/StoreItems/Pacts/Duelo.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Pacts/FencerPactBlueprint",
+      "ingredients": [
+        {
+          "item": "ScrapBrassResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapBrassResource",
+          "count": 55
+        },
+        {
+          "item": "GossamerQuartzResource",
+          "item_path": "/SF/Types/PickUps/Resources/Organics/GossamerQuartzResource",
+          "count": 40
+        },
+        {
+          "item": "MoraniteResource",
+          "item_path": "/SF/Types/PickUps/Resources/Organics/MoraniteResource",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "name": "Iron Ingot",
+      "unique_name": "IronIngotResourceItem",
+      "path": "/SF/StoreItems/Types/PickUps/Resources/Ingots/IronIngotResourceItem",
+      "lang_key": "/SF/Language/Materials/IronIgotName",
+      "lang_desc_key": null,
+      "category": "Crafted Item",
+      "subcategory": "Other",
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/IngotIron.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Quests/OrlickProgression/IronIngotBlueprint",
+      "ingredients": [
+        {
+          "item": "ScrapIronResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapIronResource",
+          "count": 20
+        },
+        {
+          "item": "WhispPlanksResource",
+          "item_path": "/SF/Types/PickUps/Resources/Organics/WhispPlanksResource",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "name": "Nightshade Ink",
+      "unique_name": "VerminaInkResource",
+      "path": "/SF/StoreItems/Types/Quests/AncestorProgression/OrlickProgression/QuestAssets/Resources/VerminaInkResource",
+      "lang_key": "/SF/Language/Materials/VerminaInkName",
+      "lang_desc_key": null,
+      "category": "Crafted Item",
+      "subcategory": "Other",
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/StoreItems/Artifacts/TowerOfPensivesArtifact2.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Quests/OrlickProgression/InkwellBlueprint",
+      "ingredients": [
+        {
+          "item": "WeepinDrisResource",
+          "item_path": "/SF/Types/PickUps/Resources/Organics/Flowers/WeepinDrisResource",
+          "count": 12
+        },
+        {
+          "item": "ToeOfOdeResource",
+          "item_path": "/SF/Types/PickUps/Resources/Organics/Mushrooms/ToeOfOdeResource",
+          "count": 6
+        },
+        {
+          "item": "IchorResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/IchorResource",
+          "count": 10
+        }
+      ]
+    },
+    {
       "name": "Dendria Pact Word A",
       "unique_name": "DendriaPactWordA",
       "path": "/SF/StoreItems/Upgrades/Dendria/PactWords/DendriaPactWordA",
@@ -11240,6 +11428,17 @@
       "icon": "/SF/Interface/Graphics/Equipment/ItemPickups/CoinAlt.png"
     },
     {
+      "name": "Baskbulb",
+      "unique_name": "FeySyndicateRepToken",
+      "path": "/SF/StoreItems/Types/Items/FactionItems/FeySyndicateRepToken",
+      "lang_key": "/SF/Language/Syndicates/FeySyndicateRepTokenName",
+      "lang_desc_key": "/SF/Language/Syndicates/FeySyndicateRepTokenDesc",
+      "category": "Key Item",
+      "subcategory": "Faction Item",
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/Factions/Alca/AlcasChildrenFactionIcon.png"
+    },
+    {
       "name": "Champion Syndicate Hub Door Key",
       "unique_name": "ChampionSyndicateHubDoorKey",
       "path": "/SF/StoreItems/Types/Items/FactionItems/ChampionSyndicateHubDoorKey",
@@ -11260,28 +11459,6 @@
       "subcategory": "Faction Item",
       "rarity": null,
       "icon": "/SF/Interface/Graphics/Equipment/ItemPickups/CoinAlt.png"
-    },
-    {
-      "name": "Champion Syndicate Rep Token",
-      "unique_name": "ChampionSyndicateRepToken",
-      "path": "/SF/StoreItems/Types/Items/FactionItems/ChampionSyndicateRepToken",
-      "lang_key": "/SF/Language/Syndicates/ChampionSyndicateRepTokenName",
-      "lang_desc_key": "/SF/Language/Syndicates/ChampionSyndicateRepTokenDesc",
-      "category": "Key Item",
-      "subcategory": "Faction Item",
-      "rarity": null,
-      "icon": "/SF/Interface/Graphics/StoreItems/Pickups/FactionOdeTags.png"
-    },
-    {
-      "name": "Champion Syndicate Rep Token Pickup",
-      "unique_name": "ChampionSyndicateRepTokenPickup",
-      "path": "/SF/Types/Items/FactionItems/ChampionSyndicateRepTokenPickup",
-      "lang_key": null,
-      "lang_desc_key": null,
-      "category": "Key Item",
-      "subcategory": "Faction Item",
-      "rarity": null,
-      "icon": null
     },
     {
       "name": "Fey Syndicate Hub Door Key",
@@ -11306,28 +11483,6 @@
       "icon": "/SF/Interface/Graphics/Equipment/ItemPickups/CoinAlt.png"
     },
     {
-      "name": "Fey Syndicate Rep Token",
-      "unique_name": "FeySyndicateRepToken",
-      "path": "/SF/StoreItems/Types/Items/FactionItems/FeySyndicateRepToken",
-      "lang_key": "/SF/Language/Syndicates/FeySyndicateRepTokenName",
-      "lang_desc_key": "/SF/Language/Syndicates/FeySyndicateRepTokenDesc",
-      "category": "Key Item",
-      "subcategory": "Faction Item",
-      "rarity": null,
-      "icon": "/SF/Interface/Graphics/StoreItems/Pickups/FactionAncientSeed.png"
-    },
-    {
-      "name": "Fey Syndicate Rep Token Pickup",
-      "unique_name": "FeySyndicateRepTokenPickup",
-      "path": "/SF/Types/Items/FactionItems/FeySyndicateRepTokenPickup",
-      "lang_key": null,
-      "lang_desc_key": null,
-      "category": "Key Item",
-      "subcategory": "Faction Item",
-      "rarity": null,
-      "icon": null
-    },
-    {
       "name": "Flask of Gloaming",
       "unique_name": "SilentRoseSyndicateHubDoorKey",
       "path": "/SF/StoreItems/Types/Items/FactionItems/SilentRoseSyndicateHubDoorKey",
@@ -11350,7 +11505,18 @@
       "icon": "/SF/Interface/Graphics/Equipment/ItemPickups/CoinAlt.png"
     },
     {
-      "name": "Silent Rose Syndicate Rep Token",
+      "name": "Sineculum",
+      "unique_name": "ChampionSyndicateRepToken",
+      "path": "/SF/StoreItems/Types/Items/FactionItems/ChampionSyndicateRepToken",
+      "lang_key": "/SF/Language/Syndicates/ChampionSyndicateRepTokenName",
+      "lang_desc_key": "/SF/Language/Syndicates/ChampionSyndicateRepTokenDesc",
+      "category": "Key Item",
+      "subcategory": "Faction Item",
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/Factions/Champion/ChampionFaction.png"
+    },
+    {
+      "name": "Sinners' Stratagem",
       "unique_name": "SilentRoseSyndicateRepToken",
       "path": "/SF/StoreItems/Types/Items/FactionItems/SilentRoseSyndicateRepToken",
       "lang_key": "/SF/Language/Syndicates/SilentRoseSyndicateRepTokenName",
@@ -11358,29 +11524,7 @@
       "category": "Key Item",
       "subcategory": "Faction Item",
       "rarity": null,
-      "icon": "/SF/Interface/Graphics/StoreItems/Pickups/FactionOdeIntel.png"
-    },
-    {
-      "name": "Silent Rose Syndicate Rep Token Pickup",
-      "unique_name": "SilentRoseSyndicateRepTokenPickup",
-      "path": "/SF/Types/Items/FactionItems/SilentRoseSyndicateRepTokenPickup",
-      "lang_key": null,
-      "lang_desc_key": null,
-      "category": "Key Item",
-      "subcategory": "Faction Item",
-      "rarity": null,
-      "icon": null
-    },
-    {
-      "name": "Syndicate Rep Token",
-      "unique_name": "SyndicateRepToken",
-      "path": "/SF/Types/Items/FactionItems/SyndicateRepToken",
-      "lang_key": null,
-      "lang_desc_key": null,
-      "category": "Key Item",
-      "subcategory": "Faction Item",
-      "rarity": null,
-      "icon": null
+      "icon": "/SF/Interface/Graphics/Factions/SilentRose/SilentRoseFactionIcon.png"
     },
     {
       "name": "Bisulcam Fodder",
@@ -11942,61 +12086,17 @@
     },
     {
       "name": "Feybalt: Blessed by Iridis",
-      "unique_name": "KintsugiWeaponUpgradeCasterSRS",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeCasterSRS",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialCasterNameT4S",
+      "unique_name": "KintsugiWeaponUpgradeCasterUC",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeCasterUC",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialCasterNameT2",
       "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialCasterDesc",
       "category": "Kintsugi",
       "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
+      "rarity": "UNCOMMON",
       "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi3.png"
     },
     {
       "name": "Feybalt: Blessed by Mora",
-      "unique_name": "KintsugiWeaponUpgradeCasterSRC",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeCasterSRC",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialCasterNameT4C",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialCasterDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi3.png"
-    },
-    {
-      "name": "Feybalt: Blessed by Saphene",
-      "unique_name": "KintsugiWeaponUpgradeCasterFeySRS",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeCasterFeySRS",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialCasterNameT4G",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialCasterDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi3.png"
-    },
-    {
-      "name": "Feybalt: Blessed by Saphene",
-      "unique_name": "KintsugiWeaponUpgradeCasterSRG",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeCasterSRG",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialCasterNameT4G",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialCasterDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi3.png"
-    },
-    {
-      "name": "Feybalt: Polished",
-      "unique_name": "KintsugiWeaponUpgradeCasterR",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeCasterR",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialCasterNameT3",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialCasterDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi3.png"
-    },
-    {
-      "name": "Feybalt: Rusted",
       "unique_name": "KintsugiWeaponUpgradeCasterC",
       "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeCasterC",
       "lang_key": "/SF/Language/Materials/KintsugiMaterialCasterName",
@@ -12007,14 +12107,58 @@
       "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi3.png"
     },
     {
-      "name": "Feybalt: Tempered",
-      "unique_name": "KintsugiWeaponUpgradeCasterUC",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeCasterUC",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialCasterNameT2",
+      "name": "Feybalt: Blessed by Saphene",
+      "unique_name": "KintsugiWeaponUpgradeCasterR",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeCasterR",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialCasterNameT3",
       "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialCasterDesc",
       "category": "Kintsugi",
       "subcategory": "Weapon Upgrade Material",
-      "rarity": "UNCOMMON",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi3.png"
+    },
+    {
+      "name": "Feybalt: Thrice Blessed by Iridis",
+      "unique_name": "KintsugiWeaponUpgradeCasterSRS",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeCasterSRS",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialCasterNameT4S",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialCasterDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi3.png"
+    },
+    {
+      "name": "Feybalt: Thrice Blessed by Mora",
+      "unique_name": "KintsugiWeaponUpgradeCasterSRC",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeCasterSRC",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialCasterNameT4C",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialCasterDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi3.png"
+    },
+    {
+      "name": "Feybalt: Thrice Blessed by Saphene",
+      "unique_name": "KintsugiWeaponUpgradeCasterFeySRS",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeCasterFeySRS",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialCasterNameT4G",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialCasterDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi3.png"
+    },
+    {
+      "name": "Feybalt: Thrice Blessed by Saphene",
+      "unique_name": "KintsugiWeaponUpgradeCasterSRG",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeCasterSRG",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialCasterNameT4G",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialCasterDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
       "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi3.png"
     },
     {
@@ -12254,72 +12398,6 @@
           "count": 25
         }
       ]
-    },
-    {
-      "name": "Gildaur: Blessed by Iridis",
-      "unique_name": "KintsugiUpgradeDefenseSRS",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseSRS",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT4S",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
-    },
-    {
-      "name": "Gildaur: Blessed by Mora",
-      "unique_name": "KintsugiUpgradeDefenseSRC",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseSRC",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT4C",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
-    },
-    {
-      "name": "Gildaur: Blessed by Saphene",
-      "unique_name": "KintsugiUpgradeDefenseSRG",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseSRG",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT4G",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
-    },
-    {
-      "name": "Gildaur: Polished",
-      "unique_name": "KintsugiUpgradeDefenseR",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseR",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT3",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
-    },
-    {
-      "name": "Gildaur: Rusted",
-      "unique_name": "KintsugiUpgradeDefenseC",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseC",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalName",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": null,
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
-    },
-    {
-      "name": "Gildaur: Tempered",
-      "unique_name": "KintsugiUpgradeDefenseUC",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseUC",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT2",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "UNCOMMON",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
     },
     {
       "name": "Great Helm of The Fire King",
@@ -12650,61 +12728,17 @@
     },
     {
       "name": "Quicksilver: Blessed by Iridis",
-      "unique_name": "KintsugiUpgradeRangedSRS",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeRangedSRS",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialRangedNameT4S",
+      "unique_name": "KintsugiUpgradeRangedUC",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeRangedUC",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialRangedNameT2",
       "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialRangedDesc",
       "category": "Kintsugi",
       "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
+      "rarity": "UNCOMMON",
       "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi2.png"
     },
     {
       "name": "Quicksilver: Blessed by Mora",
-      "unique_name": "KintsugiUpgradeRangedSRC",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeRangedSRC",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialRangedNameT4C",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialRangedDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi2.png"
-    },
-    {
-      "name": "Quicksilver: Blessed by Saphene",
-      "unique_name": "KintsugiUpgradeRangedSRG",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeRangedSRG",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialRangedNameT4G",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialRangedDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi2.png"
-    },
-    {
-      "name": "Quicksilver: Blessed by Saphene",
-      "unique_name": "KintsugiWeaponUpgradeRangedSilentRoseSRG",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeRangedSilentRoseSRG",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialRangedNameT4G",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialRangedDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi2.png"
-    },
-    {
-      "name": "Quicksilver: Polished",
-      "unique_name": "KintsugiUpgradeRangedR",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeRangedR",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialRangedNameT3",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialRangedDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi2.png"
-    },
-    {
-      "name": "Quicksilver: Rusted",
       "unique_name": "KintsugiUpgradeRangedC",
       "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeRangedC",
       "lang_key": "/SF/Language/Materials/KintsugiMaterialRangedName",
@@ -12715,14 +12749,58 @@
       "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi2.png"
     },
     {
-      "name": "Quicksilver: Tempered",
-      "unique_name": "KintsugiUpgradeRangedUC",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeRangedUC",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialRangedNameT2",
+      "name": "Quicksilver: Blessed by Saphene",
+      "unique_name": "KintsugiUpgradeRangedR",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeRangedR",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialRangedNameT3",
       "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialRangedDesc",
       "category": "Kintsugi",
       "subcategory": "Weapon Upgrade Material",
-      "rarity": "UNCOMMON",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi2.png"
+    },
+    {
+      "name": "Quicksilver: Thrice Blessed by Iridis",
+      "unique_name": "KintsugiUpgradeRangedSRS",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeRangedSRS",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialRangedNameT4S",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialRangedDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi2.png"
+    },
+    {
+      "name": "Quicksilver: Thrice Blessed by Mora",
+      "unique_name": "KintsugiUpgradeRangedSRC",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeRangedSRC",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialRangedNameT4C",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialRangedDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi2.png"
+    },
+    {
+      "name": "Quicksilver: Thrice Blessed by Saphene",
+      "unique_name": "KintsugiUpgradeRangedSRG",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeRangedSRG",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialRangedNameT4G",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialRangedDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi2.png"
+    },
+    {
+      "name": "Quicksilver: Thrice Blessed by Saphene",
+      "unique_name": "KintsugiWeaponUpgradeRangedSilentRoseSRG",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeRangedSilentRoseSRG",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialRangedNameT4G",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialRangedDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
       "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi2.png"
     },
     {
@@ -13406,61 +13484,39 @@
     },
     {
       "name": "Verite: Blessed by Iridis",
-      "unique_name": "KintsugiUpgradeMeleeSRS",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeMeleeSRS",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialMeleeNameT4S",
+      "unique_name": "KintsugiUpgradeDefenseUC",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseUC",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT2",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "UNCOMMON",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
+    },
+    {
+      "name": "Verite: Blessed by Iridis",
+      "unique_name": "KintsugiUpgradeMeleeUC",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeMeleeUC",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialMeleeNameT2",
       "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialMeleeDesc",
       "category": "Kintsugi",
       "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
+      "rarity": "UNCOMMON",
       "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi5.png"
     },
     {
       "name": "Verite: Blessed by Mora",
-      "unique_name": "KintsugiUpgradeMeleeSRC",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeMeleeSRC",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialMeleeNameT4C",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialMeleeDesc",
+      "unique_name": "KintsugiUpgradeDefenseC",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseC",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalName",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
       "category": "Kintsugi",
       "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi5.png"
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
     },
     {
       "name": "Verite: Blessed by Mora",
-      "unique_name": "KintsugiWeaponUpgradeMeleeChampionSRC",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeMeleeChampionSRC",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialMeleeNameT4C",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialMeleeDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi5.png"
-    },
-    {
-      "name": "Verite: Blessed by Saphene",
-      "unique_name": "KintsugiUpgradeMeleeSRG",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeMeleeSRG",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialMeleeNameT4G",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialMeleeDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi5.png"
-    },
-    {
-      "name": "Verite: Polished",
-      "unique_name": "KintsugiUpgradeMeleeR",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeMeleeR",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialMeleeNameT3",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialMeleeDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi5.png"
-    },
-    {
-      "name": "Verite: Rusted",
       "unique_name": "KintsugiUpgradeMeleeC",
       "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeMeleeC",
       "lang_key": "/SF/Language/Materials/KintsugiMaterialMeleeName",
@@ -13471,14 +13527,102 @@
       "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi5.png"
     },
     {
-      "name": "Verite: Tempered",
-      "unique_name": "KintsugiUpgradeMeleeUC",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeMeleeUC",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialMeleeNameT2",
+      "name": "Verite: Blessed by Saphene",
+      "unique_name": "KintsugiUpgradeDefenseR",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseR",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT3",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
+    },
+    {
+      "name": "Verite: Blessed by Saphene",
+      "unique_name": "KintsugiUpgradeMeleeR",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeMeleeR",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialMeleeNameT3",
       "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialMeleeDesc",
       "category": "Kintsugi",
       "subcategory": "Weapon Upgrade Material",
-      "rarity": "UNCOMMON",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi5.png"
+    },
+    {
+      "name": "Verite: Thrice Blessed by Iridis",
+      "unique_name": "KintsugiUpgradeDefenseSRS",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseSRS",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT4S",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
+    },
+    {
+      "name": "Verite: Thrice Blessed by Mora",
+      "unique_name": "KintsugiUpgradeDefenseSRC",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseSRC",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT4C",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
+    },
+    {
+      "name": "Verite: Thrice Blessed by Saphene",
+      "unique_name": "KintsugiUpgradeDefenseSRG",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseSRG",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT4G",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
+    },
+    {
+      "name": "Verite: Twice Blessed by Iridis",
+      "unique_name": "KintsugiUpgradeMeleeSRS",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeMeleeSRS",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialMeleeNameT4S",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialMeleeDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi5.png"
+    },
+    {
+      "name": "Verite: Twice Blessed by Mora",
+      "unique_name": "KintsugiUpgradeMeleeSRC",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeMeleeSRC",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialMeleeNameT4C",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialMeleeDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi5.png"
+    },
+    {
+      "name": "Verite: Twice Blessed by Mora",
+      "unique_name": "KintsugiWeaponUpgradeMeleeChampionSRC",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiWeaponUpgradeMeleeChampionSRC",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialMeleeNameT4C",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialMeleeDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi5.png"
+    },
+    {
+      "name": "Verite: Twice Blessed by Saphene",
+      "unique_name": "KintsugiUpgradeMeleeSRG",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeMeleeSRG",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialMeleeNameT4G",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialMeleeDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
       "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi5.png"
     },
     {
@@ -15111,6 +15255,17 @@
     },
     {
       "name": "The Astute",
+      "unique_name": "BeaverMotePassiveTotemSetA",
+      "path": "/SF/StoreItems/Upgrades/Motes/Polearms/Beaver/TotemSetA/BeaverMotePassiveTotemSetA",
+      "lang_key": "/SF/Language/Motes/DeerMoteTotemSetAPoleArmsName",
+      "lang_desc_key": "/SF/Language/Motes/DeerMoteTotemSetAPoleArmsDesc",
+      "category": "Mote",
+      "subcategory": "Polearm",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/Animotes/Animals/Beaver.png"
+    },
+    {
+      "name": "The Astute",
       "unique_name": "DeerMotePassiveTotemSetA",
       "path": "/SF/StoreItems/Upgrades/Motes/Polearms/Deer/TotemSetA/DeerMotePassiveTotemSetA",
       "lang_key": "/SF/Language/Motes/DeerMoteTotemSetAPoleArmsName",
@@ -15141,17 +15296,6 @@
       "subcategory": "Polearm",
       "rarity": null,
       "icon": "/SF/Interface/Graphics/Animotes/Animals/RabbitSpirit.png"
-    },
-    {
-      "name": "The Carver",
-      "unique_name": "BeaverMotePassiveTotemSetA",
-      "path": "/SF/StoreItems/Upgrades/Motes/Polearms/Beaver/TotemSetA/BeaverMotePassiveTotemSetA",
-      "lang_key": "/SF/Language/Motes/BeaverMoteTotemSetAPolearmsName",
-      "lang_desc_key": "/SF/Language/Motes/BeaverMoteTotemSetAPolearmsDesc",
-      "category": "Mote",
-      "subcategory": "Polearm",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/Animotes/Animals/Beaver.png"
     },
     {
       "name": "The Drudger",
@@ -15682,6 +15826,17 @@
       "icon": null
     },
     {
+      "name": "Burning Sage",
+      "unique_name": "BurningSage",
+      "path": "/SF/StoreItems/Types/Quests/SideQuests/BurningSage",
+      "lang_key": "/SF/Language/Quests/BurningSageQuestTitle",
+      "lang_desc_key": "/SF/Language/Quests/BurningSageQuestDesc",
+      "category": "Quest",
+      "subcategory": "Quest",
+      "rarity": null,
+      "icon": null
+    },
+    {
       "name": "Deadwood",
       "unique_name": "PeaceKeeper",
       "path": "/SF/StoreItems/Types/Quests/SideQuests/PeaceKeeper",
@@ -15709,6 +15864,28 @@
       "path": "/SF/StoreItems/Types/Quests/AncestorProgression/TuvalkaneProgression/ProgressionQuests/TuvalkaneRankTwo",
       "lang_key": "/SF/Language/Quests/TuvalkaneRank2",
       "lang_desc_key": null,
+      "category": "Quest",
+      "subcategory": "Quest",
+      "rarity": null,
+      "icon": null
+    },
+    {
+      "name": "Laid To Rest",
+      "unique_name": "LaidToRest",
+      "path": "/SF/StoreItems/Types/Quests/SideQuests/LaidToRest",
+      "lang_key": "/SF/Language/Quests/LaidToRestQuestTitle",
+      "lang_desc_key": "/SF/Language/Quests/LaidToRestQuestDesc",
+      "category": "Quest",
+      "subcategory": "Quest",
+      "rarity": null,
+      "icon": null
+    },
+    {
+      "name": "Laid To Rest",
+      "unique_name": "TreasureHuntAtLummins",
+      "path": "/SF/StoreItems/Types/Quests/SideQuests/TreasureHuntAtLummins",
+      "lang_key": "/SF/Language/Quests/LaidToRestQuestTitle",
+      "lang_desc_key": "/SF/Language/Quests/LaidToRestQuestDesc",
       "category": "Quest",
       "subcategory": "Quest",
       "rarity": null,
@@ -15759,11 +15936,33 @@
       "icon": null
     },
     {
+      "name": "Runner of the Rose",
+      "unique_name": "TailoringTheRevolution",
+      "path": "/SF/StoreItems/Types/Quests/SideQuests/TailoringTheRevolution",
+      "lang_key": "/SF/Language/Quests/TailoringTheRevolutionQuestTitle",
+      "lang_desc_key": "/SF/Language/Quests/TailoringTheRevolutionQuestDesc",
+      "category": "Quest",
+      "subcategory": "Quest",
+      "rarity": null,
+      "icon": null
+    },
+    {
       "name": "Silent Rose Booze Task",
       "unique_name": "SilentRoseBoozeTask",
       "path": "/SF/StoreItems/Types/Quests/FactionQuests/SilentRoseBoozeTask",
       "lang_key": null,
       "lang_desc_key": null,
+      "category": "Quest",
+      "subcategory": "Quest",
+      "rarity": null,
+      "icon": null
+    },
+    {
+      "name": "The Fungal Lord",
+      "unique_name": "Mycologist",
+      "path": "/SF/StoreItems/Types/Quests/SideQuests/Mycologist",
+      "lang_key": "/SF/Language/Quests/MycologistQuestTitle",
+      "lang_desc_key": "/SF/Language/Quests/MycologistQuestDesc",
       "category": "Quest",
       "subcategory": "Quest",
       "rarity": null,
@@ -15869,17 +16068,6 @@
       "icon": null
     },
     {
-      "name": "[PH] Burning Sage",
-      "unique_name": "BurningSage",
-      "path": "/SF/StoreItems/Types/Quests/SideQuests/BurningSage",
-      "lang_key": "/SF/Language/Quests/BurningSageQuestTitle",
-      "lang_desc_key": "/SF/Language/Quests/BurningSageQuestDesc",
-      "category": "Quest",
-      "subcategory": "Quest",
-      "rarity": null,
-      "icon": null
-    },
-    {
       "name": "[PH] From Slums to Sovereignty",
       "unique_name": "FromSlumsToSovereignty",
       "path": "/SF/StoreItems/Types/Quests/SideQuests/FromSlumsToSovereignty",
@@ -15896,39 +16084,6 @@
       "path": "/SF/StoreItems/Types/Quests/SideQuests/InterceptingTheElite",
       "lang_key": "/SF/Language/Quests/InterceptingTheEliteQuestTitle",
       "lang_desc_key": "/SF/Language/Quests/InterceptingTheEliteQuestDesc",
-      "category": "Quest",
-      "subcategory": "Quest",
-      "rarity": null,
-      "icon": null
-    },
-    {
-      "name": "[PH] Laid To Rest",
-      "unique_name": "LaidToRest",
-      "path": "/SF/StoreItems/Types/Quests/SideQuests/LaidToRest",
-      "lang_key": "/SF/Language/Quests/LaidToRestQuestTitle",
-      "lang_desc_key": "/SF/Language/Quests/LaidToRestQuestDesc",
-      "category": "Quest",
-      "subcategory": "Quest",
-      "rarity": null,
-      "icon": null
-    },
-    {
-      "name": "[PH] Laid To Rest",
-      "unique_name": "TreasureHuntAtLummins",
-      "path": "/SF/StoreItems/Types/Quests/SideQuests/TreasureHuntAtLummins",
-      "lang_key": "/SF/Language/Quests/LaidToRestQuestTitle",
-      "lang_desc_key": "/SF/Language/Quests/LaidToRestQuestDesc",
-      "category": "Quest",
-      "subcategory": "Quest",
-      "rarity": null,
-      "icon": null
-    },
-    {
-      "name": "[PH] Mycologist",
-      "unique_name": "Mycologist",
-      "path": "/SF/StoreItems/Types/Quests/SideQuests/Mycologist",
-      "lang_key": "/SF/Language/Quests/MycologistQuestTitle",
-      "lang_desc_key": "/SF/Language/Quests/MycologistQuestDesc",
       "category": "Quest",
       "subcategory": "Quest",
       "rarity": null,
@@ -15955,28 +16110,6 @@
       "subcategory": "Quest",
       "rarity": null,
       "icon": null
-    },
-    {
-      "name": "[PH] Tailoring The Revolution",
-      "unique_name": "TailoringTheRevolution",
-      "path": "/SF/StoreItems/Types/Quests/SideQuests/TailoringTheRevolution",
-      "lang_key": "/SF/Language/Quests/TailoringTheRevolutionQuestTitle",
-      "lang_desc_key": "/SF/Language/Quests/TailoringTheRevolutionQuestDesc",
-      "category": "Quest",
-      "subcategory": "Quest",
-      "rarity": null,
-      "icon": null
-    },
-    {
-      "name": "A Birdie Flown Bundle",
-      "unique_name": "ABirdieFlownBundle",
-      "path": "/SF/Types/PickUps/Resources/Bundles/SidequestRewardsBundles/ABirdieFlownBundle",
-      "lang_key": null,
-      "lang_desc_key": null,
-      "category": "Resource",
-      "subcategory": "Bundles",
-      "rarity": null,
-      "icon": "/SF/Interface/Graphics/StoreItems/Pickups/Pouch1.png"
     },
     {
       "name": "Burning Sage Bundle",
@@ -18078,7 +18211,7 @@
       "icon": null
     },
     {
-      "name": "Orlick The Bicameral",
+      "name": "Orlick the Bicameral",
       "unique_name": "OrlickAncestor",
       "path": "/SF/StoreItems/Types/Game/Ancestors/Orlick/OrlickAncestor",
       "lang_key": "/SF/Language/Characters/Orlick",
@@ -19630,6 +19763,180 @@
       "icon": "/SF/Interface/Graphics/StoreItems/Totems/JosalfarTalisman.png"
     },
     {
+      "name": "Cenotaph",
+      "unique_name": "CorruptedScimitarMeleeWeapon",
+      "path": "/SF/StoreItems/Weapons/Melee/OneHand/CorruptedScimitar/CorruptedScimitarMeleeWeapon",
+      "lang_key": "/SF/Language/Weapons/CorruptedScimitarMeleeWeaponName",
+      "lang_desc_key": null,
+      "category": "Weapon",
+      "subcategory": "Crafted",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Weapons/CorruptedScimitar.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Weapons/Melee/Blueprints/CorruptedScimitarMeleeWeaponBlueprint",
+      "ingredients": [
+        {
+          "item": "CorruptOnyxResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/CorruptOnyxResource",
+          "count": 15
+        },
+        {
+          "item": "IchorResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/IchorResource",
+          "count": 15
+        },
+        {
+          "item": "PetrifiedIchorResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/PetrifiedIchorResource",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "name": "Espadarte",
+      "unique_name": "PirateFencingSwordMeleeWeapon",
+      "path": "/SF/StoreItems/Weapons/Melee/OneHand/PirateFencingSword/PirateFencingSwordMeleeWeapon",
+      "lang_key": "/SF/Language/Weapons/PirateFencingSwordMeleeWeaponName",
+      "lang_desc_key": null,
+      "category": "Weapon",
+      "subcategory": "Crafted",
+      "rarity": "UNCOMMON",
+      "icon": "/SF/Interface/Graphics/StoreItems/Weapons/PirateFencingSword.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Weapons/Melee/Blueprints/PirateFencingSwordMeleeWeaponBlueprint",
+      "ingredients": [
+        {
+          "item": "ScrapIronResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapIronResource",
+          "count": 20
+        },
+        {
+          "item": "ScrapSteelResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapSteelResource",
+          "count": 20
+        },
+        {
+          "item": "MoraniteResource",
+          "item_path": "/SF/Types/PickUps/Resources/Organics/MoraniteResource",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "name": "Falx",
+      "unique_name": "OdeSoldierSwordMeleeWeapon",
+      "path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
+      "lang_key": "/SF/Language/Weapons/OdeSoldierSwordMeleeWeaponName",
+      "lang_desc_key": null,
+      "category": "Weapon",
+      "subcategory": "Crafted",
+      "rarity": "UNCOMMON",
+      "icon": "/SF/Interface/Graphics/StoreItems/Weapons/SinecureSword.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Weapons/OdeSoldierSwordMeleeWeaponBlueprint",
+      "ingredients": [
+        {
+          "item": "OdeGraphiteResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/OdeGraphiteResource",
+          "count": 20
+        },
+        {
+          "item": "ScrapBrassResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapBrassResource",
+          "count": 25
+        },
+        {
+          "item": "IchorResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/IchorResource",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "name": "Lyke-Wake",
+      "unique_name": "MendicantSwordAndBoardMeleeWeapon",
+      "path": "/SF/StoreItems/Weapons/Melee/OneHand/MendicantSwordandBoard/MendicantSwordAndBoardMeleeWeapon",
+      "lang_key": "/SF/Language/Weapons/MendicantSwordAndBoardMeleeWeaponName",
+      "lang_desc_key": null,
+      "category": "Weapon",
+      "subcategory": "Crafted",
+      "rarity": "UNCOMMON",
+      "icon": "/SF/Interface/Graphics/StoreItems/Weapons/MendicantSwordAndBoard.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Weapons/Melee/Blueprints/MendicantSwordAndBoardMeleeWeaponBlueprint",
+      "ingredients": [
+        {
+          "item": "ScrapSteelResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapSteelResource",
+          "count": 20
+        },
+        {
+          "item": "CorruptOnyxResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/CorruptOnyxResource",
+          "count": 20
+        },
+        {
+          "item": "SilistytResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/SilistytResource",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "name": "Navalha",
+      "unique_name": "SeedRapierMeleeWeapon",
+      "path": "/SF/StoreItems/Weapons/Melee/OneHand/SeedRapier/SeedRapierMeleeWeapon",
+      "lang_key": "/SF/Language/Weapons/SeedRapierMeleeWeaponName",
+      "lang_desc_key": null,
+      "category": "Weapon",
+      "subcategory": "Crafted",
+      "rarity": "UNCOMMON",
+      "icon": "/SF/Interface/Graphics/StoreItems/Weapons/SeedRapier.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Weapons/Melee/Blueprints/SeedRapierMeleeWeaponBlueprint",
+      "ingredients": [
+        {
+          "item": "ScrapSteelResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapSteelResource",
+          "count": 20
+        },
+        {
+          "item": "ScrapIronResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapIronResource",
+          "count": 20
+        },
+        {
+          "item": "SapphelineResource",
+          "item_path": "/SF/Types/PickUps/Resources/Organics/SapphelineResource",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "name": "Silistavf",
+      "unique_name": "OdeStaffCasterRangedMeleeWeapon",
+      "path": "/SF/StoreItems/Weapons/Ranged/OneHand/OdeStaffCaster/OdeStaffCasterRangedMeleeWeapon",
+      "lang_key": "/SF/Language/Weapons/OdeStaffCasterRangedMeleeWeaponName",
+      "lang_desc_key": null,
+      "category": "Weapon",
+      "subcategory": "Crafted",
+      "rarity": "UNCOMMON",
+      "icon": "/SF/Interface/Graphics/StoreItems/Weapons/OdeStaff.png",
+      "crafting_recipe": "/SF/StoreItems/Types/Recipes/Weapons/Caster/Blueprints/OdeStaffCasterRangedMeleeWeaponBlueprint",
+      "ingredients": [
+        {
+          "item": "OdeGraphiteResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/OdeGraphiteResource",
+          "count": 20
+        },
+        {
+          "item": "CorruptOnyxResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/CorruptOnyxResource",
+          "count": 15
+        },
+        {
+          "item": "PetrifiedIchorResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/PetrifiedIchorResource",
+          "count": 6
+        }
+      ]
+    },
+    {
       "name": "Bog & Myrtle",
       "unique_name": "DendritSwordAndBoardMeleeWeapon",
       "path": "/SF/StoreItems/Weapons/Melee/OneHand/DendritSwordAndBoard/DendritSwordAndBoardMeleeWeapon",
@@ -20148,50 +20455,6 @@
         {
           "item": "MockeryTurashMeleeWeapon",
           "item_path": "/SF/Weapons/Melee/OneHand/MockeryTurash/MockeryTurashMeleeWeapon",
-          "count": 1
-        }
-      ],
-      "ingredient_alternatives": {
-        "BaseKintsugiWeaponUpgrade": [
-          "/SF/Types/Items/Kintsugi/BaseKintsugiUniversalUpgrade"
-        ]
-      }
-    },
-    {
-      "name": "Ode Soldier Sword Melee Weapon",
-      "unique_name": "OdeSoldierSwordMeleeWeapon",
-      "path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
-      "lang_key": "/SF/Language/Weapons/OdeSoldierSwordMeleeWeaponName",
-      "lang_desc_key": "/SF/Language/Weapons/OdeSoldierSwordMeleeWeaponDesc",
-      "category": "Weapon",
-      "subcategory": "Melee",
-      "rarity": "UNCOMMON",
-      "icon": "/SF/Interface/Graphics/StoreItems/Weapons/SinecureSword.png",
-      "crafting_recipe": "/SF/Types/Recipes/Weapons/OdeSoldierSwordMeleeWeaponReforgeBlueprint",
-      "ingredients": [
-        {
-          "item": "OdeSoldierSwordMeleeWeapon",
-          "item_path": "/SF/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
-          "count": 1
-        },
-        {
-          "item": "OdeGraphiteResource",
-          "item_path": "/SF/Types/PickUps/Resources/Inorganics/OdeGraphiteResource",
-          "count": 25
-        },
-        {
-          "item": "ScrapBrassResource",
-          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapBrassResource",
-          "count": 25
-        },
-        {
-          "item": "IchorResource",
-          "item_path": "/SF/Types/PickUps/Resources/Inorganics/IchorResource",
-          "count": 20
-        },
-        {
-          "item": "BaseKintsugiWeaponUpgrade",
-          "item_path": "/SF/Types/Items/Kintsugi/BaseKintsugiWeaponUpgrade",
           "count": 1
         }
       ],
@@ -20972,6 +21235,50 @@
       "icon": null
     },
     {
+      "name": "Avex",
+      "unique_name": "SinecureBowRangedMeleeWeapon",
+      "path": "/SF/StoreItems/Weapons/Ranged/TwoHand/SinecureBow/SinecureBowRangedMeleeWeapon",
+      "lang_key": "/SF/Language/Weapons/SinecureBowRangedMeleeWeaponName",
+      "lang_desc_key": "/SF/Language/Weapons/SinecureBowRangedMeleeWeaponDesc",
+      "category": "Weapon",
+      "subcategory": "Ranged",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Weapons/SinecureBow.png",
+      "crafting_recipe": "/SF/Types/Recipes/Weapons/SinecureBowRangedMeleeWeaponReforgeBlueprint",
+      "ingredients": [
+        {
+          "item": "SinecureBowRangedMeleeWeapon",
+          "item_path": "/SF/Weapons/Ranged/TwoHand/SinecureBow/SinecureBowRangedMeleeWeapon",
+          "count": 1
+        },
+        {
+          "item": "ScrapBrassResource",
+          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapBrassResource",
+          "count": 15
+        },
+        {
+          "item": "CorruptOnyxResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/CorruptOnyxResource",
+          "count": 15
+        },
+        {
+          "item": "PetrifiedIchorResource",
+          "item_path": "/SF/Types/PickUps/Resources/Inorganics/PetrifiedIchorResource",
+          "count": 6
+        },
+        {
+          "item": "BaseKintsugiWeaponUpgradeRanged",
+          "item_path": "/SF/Types/Items/Kintsugi/BaseKintsugiWeaponUpgradeRanged",
+          "count": 1
+        }
+      ],
+      "ingredient_alternatives": {
+        "BaseKintsugiWeaponUpgradeRanged": [
+          "/SF/Types/Items/Kintsugi/BaseKintsugiUniversalUpgrade"
+        ]
+      }
+    },
+    {
       "name": "Basker's Wrest",
       "unique_name": "FennCastingDeviceRangedMeleeWeapon",
       "path": "/SF/StoreItems/Weapons/Ranged/OneHand/FennCastingDevice/FennCastingDeviceRangedMeleeWeapon",
@@ -21311,7 +21618,7 @@
       "subcategory": "Ranged",
       "rarity": null,
       "icon": "/SF/Interface/Graphics/StoreItems/Weapons/StarterSecondaryThrowingKnives.png",
-      "crafting_recipe": "/SF/Types/Recipes/Weapons/SecondaryStarterThrowingKnivesRangedMeleeWeaponBlueprint",
+      "crafting_recipe": "/SF/Types/Recipes/Weapons/SecondaryStarterThrowingKnivesRangedMeleeWPNReforgeBlueprint",
       "ingredients": [
         {
           "item": "ScrapBrassResource",
@@ -21327,8 +21634,23 @@
           "item": "SproutFolkFondResource",
           "item_path": "/SF/Types/PickUps/Resources/Textiles/SproutFolkFondResource",
           "count": 10
+        },
+        {
+          "item": "SecondaryStarterThrowingKnivesRangedMeleeWeapon",
+          "item_path": "/SF/Weapons/Ranged/Thrown/SecondaryStarterThrowingKnives/SecondaryStarterThrowingKnivesRangedMeleeWeapon",
+          "count": 1
+        },
+        {
+          "item": "BaseKintsugiWeaponUpgradeRanged",
+          "item_path": "/SF/Types/Items/Kintsugi/BaseKintsugiWeaponUpgradeRanged",
+          "count": 1
         }
-      ]
+      ],
+      "ingredient_alternatives": {
+        "BaseKintsugiWeaponUpgradeRanged": [
+          "/SF/Types/Items/Kintsugi/BaseKintsugiUniversalUpgrade"
+        ]
+      }
     },
     {
       "name": "Seathorn",
@@ -21384,50 +21706,6 @@
       "subcategory": "Ranged",
       "rarity": "UNCOMMON",
       "icon": "/SF/Interface/Graphics/StoreItems/Weapons/SecondaryThrowingKnives.png"
-    },
-    {
-      "name": "Sinecure Bow Ranged Melee Weapon",
-      "unique_name": "SinecureBowRangedMeleeWeapon",
-      "path": "/SF/StoreItems/Weapons/Ranged/TwoHand/SinecureBow/SinecureBowRangedMeleeWeapon",
-      "lang_key": "/SF/Language/Weapons/SinecureBowRangedMeleeWeaponName",
-      "lang_desc_key": "/SF/Language/Weapons/SinecureBowRangedMeleeWeaponDesc",
-      "category": "Weapon",
-      "subcategory": "Ranged",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Weapons/SinecureBow.png",
-      "crafting_recipe": "/SF/Types/Recipes/Weapons/SinecureBowRangedMeleeWeaponReforgeBlueprint",
-      "ingredients": [
-        {
-          "item": "SinecureBowRangedMeleeWeapon",
-          "item_path": "/SF/Weapons/Ranged/TwoHand/SinecureBow/SinecureBowRangedMeleeWeapon",
-          "count": 1
-        },
-        {
-          "item": "ScrapBrassResource",
-          "item_path": "/SF/Types/PickUps/Resources/ScrapMetals/ScrapBrassResource",
-          "count": 15
-        },
-        {
-          "item": "CorruptOnyxResource",
-          "item_path": "/SF/Types/PickUps/Resources/Inorganics/CorruptOnyxResource",
-          "count": 15
-        },
-        {
-          "item": "PetrifiedIchorResource",
-          "item_path": "/SF/Types/PickUps/Resources/Inorganics/PetrifiedIchorResource",
-          "count": 6
-        },
-        {
-          "item": "BaseKintsugiWeaponUpgradeRanged",
-          "item_path": "/SF/Types/Items/Kintsugi/BaseKintsugiWeaponUpgradeRanged",
-          "count": 1
-        }
-      ],
-      "ingredient_alternatives": {
-        "BaseKintsugiWeaponUpgradeRanged": [
-          "/SF/Types/Items/Kintsugi/BaseKintsugiUniversalUpgrade"
-        ]
-      }
     },
     {
       "name": "Skílter",
@@ -21800,11 +22078,6 @@
           "count": 1
         },
         {
-          "item": "Ode Soldier Sword Melee Weapon",
-          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
-          "count": 1
-        },
-        {
           "item": "Oryn-Umbr",
           "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/SwordandBoard/SphereSwordAndBoardMeleeWeapon",
           "count": 1
@@ -21940,6 +22213,11 @@
           "count": 1
         },
         {
+          "item": "Avex",
+          "item_path": "/SF/StoreItems/Weapons/Ranged/TwoHand/SinecureBow/SinecureBowRangedMeleeWeapon",
+          "count": 1
+        },
+        {
           "item": "Blitzel",
           "item_path": "/SF/StoreItems/Weapons/Ranged/TwoHand/OdeBow/OdeBowRangedMeleeWeapon",
           "count": 1
@@ -21955,8 +22233,8 @@
           "count": 1
         },
         {
-          "item": "Sinecure Bow Ranged Melee Weapon",
-          "item_path": "/SF/StoreItems/Weapons/Ranged/TwoHand/SinecureBow/SinecureBowRangedMeleeWeapon",
+          "item": "Precklies",
+          "item_path": "/SF/StoreItems/Weapons/Ranged/Thrown/SecondaryStarterThrowingKnives/SecondaryStarterThrowingKnivesRangedMeleeWeapon",
           "count": 1
         },
         {
@@ -22245,6 +22523,11 @@
           "count": 20
         },
         {
+          "item": "Avex",
+          "item_path": "/SF/StoreItems/Types/Recipes/Weapons/SinecureBowRangedMeleeWeaponBlueprint",
+          "count": 15
+        },
+        {
           "item": "Grinn",
           "item_path": "/SF/StoreItems/Types/Recipes/Weapons/SecondaryOdeSawDaggerMeleeWeaponBlueprint",
           "count": 20
@@ -22253,11 +22536,6 @@
           "item": "Rivt-II",
           "item_path": "/SF/StoreItems/Types/Recipes/Weapons/SphereDualSwordBlueprint",
           "count": 25
-        },
-        {
-          "item": "Sinecure Bow Ranged Melee Weapon Blueprint",
-          "item_path": "/SF/StoreItems/Types/Recipes/Weapons/SinecureBowRangedMeleeWeaponBlueprint",
-          "count": 15
         },
         {
           "item": "Skílter",
@@ -22300,6 +22578,21 @@
           "count": 20
         },
         {
+          "item": "Cenotaph",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/CorruptedScimitar/CorruptedScimitarMeleeWeapon",
+          "count": 15
+        },
+        {
+          "item": "Lyke-Wake",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/MendicantSwordandBoard/MendicantSwordAndBoardMeleeWeapon",
+          "count": 20
+        },
+        {
+          "item": "Silistavf",
+          "item_path": "/SF/StoreItems/Weapons/Ranged/OneHand/OdeStaffCaster/OdeStaffCasterRangedMeleeWeapon",
+          "count": 15
+        },
+        {
           "item": "Grinn",
           "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/SecondaryOdeSawDagger/SecondaryOdeSawDaggerMeleeWeapon",
           "count": 20
@@ -22325,7 +22618,7 @@
           "count": 25
         },
         {
-          "item": "Sinecure Bow Ranged Melee Weapon",
+          "item": "Avex",
           "item_path": "/SF/StoreItems/Weapons/Ranged/TwoHand/SinecureBow/SinecureBowRangedMeleeWeapon",
           "count": 15
         },
@@ -22498,6 +22791,41 @@
           "item": "Wazzard's Robes",
           "item_path": "/SF/StoreItems/Upgrades/Skins/Body/WazzardBody",
           "count": 40
+        },
+        {
+          "item": "Duelo Ribbon",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Helmets/FencerQuestItemHelmet",
+          "count": 5
+        },
+        {
+          "item": "Mestra's Breeches",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Legs/FencerLegs",
+          "count": 30
+        },
+        {
+          "item": "Mestra's Furbelow",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Body/FencerBody",
+          "count": 30
+        },
+        {
+          "item": "Mestra's Helm",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Helmets/FencerHelmet",
+          "count": 20
+        },
+        {
+          "item": "Pensive's Bonnet",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Helmets/OrlickHelmet",
+          "count": 15
+        },
+        {
+          "item": "Pensive's Cloak",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Body/OrlickBody",
+          "count": 15
+        },
+        {
+          "item": "Pensive's Pantaloons",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Legs/OrlickLegs",
+          "count": 15
         },
         {
           "item": "Armet of Orengall",
@@ -23490,6 +23818,16 @@
           "count": 30
         },
         {
+          "item": "Pensive's Cloak",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Body/OrlickBody",
+          "count": 10
+        },
+        {
+          "item": "Pensive's Pantaloons",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Legs/OrlickLegs",
+          "count": 10
+        },
+        {
           "item": "Tempest Braes",
           "item_path": "/SF/StoreItems/Upgrades/Skins/Legs/ForgetFireAltLegs",
           "count": 25
@@ -23578,6 +23916,11 @@
           "item": "Juniper",
           "item_path": "/SF/StoreItems/Types/Recipes/Weapons/GrandFatherBowRangedMeleeWeaponBlueprint",
           "count": 20
+        },
+        {
+          "item": "Duelo",
+          "item_path": "/SF/StoreItems/Souls/Fencer/FencerSoul",
+          "count": 40
         },
         {
           "item": "Forgetfire Braes",
@@ -23815,11 +24158,6 @@
           "count": 20
         },
         {
-          "item": "Ode Soldier Sword Melee Weapon Blueprint",
-          "item_path": "/SF/StoreItems/Types/Recipes/Weapons/OdeSoldierSwordMeleeWeaponBlueprint",
-          "count": 20
-        },
-        {
           "item": "Rook",
           "item_path": "/SF/StoreItems/Types/Recipes/Weapons/DeoraSpearBlueprint",
           "count": 20
@@ -23845,6 +24183,11 @@
           "count": 20
         },
         {
+          "item": "Nightshade Ink",
+          "item_path": "/SF/StoreItems/Types/Quests/AncestorProgression/OrlickProgression/QuestAssets/Resources/VerminaInkResource",
+          "count": 10
+        },
+        {
           "item": "Cardinal Charm",
           "item_path": "/SF/StoreItems/Upgrades/Skins/Totem/CardinalTotem",
           "count": 20
@@ -23860,6 +24203,16 @@
           "count": 20
         },
         {
+          "item": "Cenotaph",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/CorruptedScimitar/CorruptedScimitarMeleeWeapon",
+          "count": 15
+        },
+        {
+          "item": "Falx",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
+          "count": 20
+        },
+        {
           "item": "Grinn",
           "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/SecondaryOdeSawDagger/SecondaryOdeSawDaggerMeleeWeapon",
           "count": 20
@@ -23867,11 +24220,6 @@
         {
           "item": "Nurash",
           "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/MockeryTurash/MockeryTurashMeleeWeapon",
-          "count": 20
-        },
-        {
-          "item": "Ode Soldier Sword Melee Weapon",
-          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
           "count": 20
         },
         {
@@ -24008,6 +24356,11 @@
           "item": "Thawtide's Plenty",
           "item_path": "/SF/Types/StoreItems/SeasonalBundle/ThawTideEventBundle",
           "count": 25
+        },
+        {
+          "item": "Brass Ingot",
+          "item_path": "/SF/StoreItems/Types/PickUps/Resources/Ingots/BrassIngotResourceItem",
+          "count": 10
         },
         {
           "item": "Clivers",
@@ -24310,6 +24663,11 @@
           "count": 8
         },
         {
+          "item": "Duelo",
+          "item_path": "/SF/StoreItems/Souls/Fencer/FencerSoul",
+          "count": 15
+        },
+        {
           "item": "Fire King's Kilt",
           "item_path": "/SF/StoreItems/Types/Items/Kintsugi/Armor/KintsugiArmourUpgradeFennJotarLegs",
           "count": 6
@@ -24348,6 +24706,11 @@
           "item": "Orengall's Fang",
           "item_path": "/SF/StoreItems/Upgrades/Skins/Totem/OrengalSoulBoonTotem",
           "count": 12
+        },
+        {
+          "item": "Espadarte",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/PirateFencingSword/PirateFencingSwordMeleeWeapon",
+          "count": 8
         },
         {
           "item": "Bog & Myrtle",
@@ -24600,11 +24963,6 @@
           "count": 30
         },
         {
-          "item": "Ode Soldier Sword Melee Weapon Blueprint",
-          "item_path": "/SF/StoreItems/Types/Recipes/Weapons/OdeSoldierSwordMeleeWeaponBlueprint",
-          "count": 20
-        },
-        {
           "item": "Odiac",
           "item_path": "/SF/StoreItems/Types/Recipes/Weapons/OdeCastingDeviceRangedMeleeWeaponBlueprint",
           "count": 25
@@ -24635,14 +24993,19 @@
           "count": 30
         },
         {
+          "item": "Falx",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
+          "count": 20
+        },
+        {
+          "item": "Silistavf",
+          "item_path": "/SF/StoreItems/Weapons/Ranged/OneHand/OdeStaffCaster/OdeStaffCasterRangedMeleeWeapon",
+          "count": 20
+        },
+        {
           "item": "Nettle",
           "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/SecondaryDagger/SecondaryDaggerMeleeWeapon",
           "count": 30
-        },
-        {
-          "item": "Ode Soldier Sword Melee Weapon",
-          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
-          "count": 25
         },
         {
           "item": "Rivt-II",
@@ -24663,16 +25026,6 @@
           "item": "Odiac",
           "item_path": "/SF/StoreItems/Weapons/Ranged/OneHand/OdeCastingDevice/OdeCastingDeviceRangedMeleeWeapon",
           "count": 25
-        }
-      ]
-    },
-    "OdeSoldierSwordMeleeWeapon": {
-      "item_path": "/SF/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
-      "used_by": [
-        {
-          "item": "Ode Soldier Sword Melee Weapon",
-          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
-          "count": 1
         }
       ]
     },
@@ -24835,13 +25188,13 @@
           "count": 6
         },
         {
-          "item": "Purity",
-          "item_path": "/SF/StoreItems/Types/Recipes/Weapons/MendicantGreatSwordMeleeWeaponBlueprint",
+          "item": "Avex",
+          "item_path": "/SF/StoreItems/Types/Recipes/Weapons/SinecureBowRangedMeleeWeaponBlueprint",
           "count": 6
         },
         {
-          "item": "Sinecure Bow Ranged Melee Weapon Blueprint",
-          "item_path": "/SF/StoreItems/Types/Recipes/Weapons/SinecureBowRangedMeleeWeaponBlueprint",
+          "item": "Purity",
+          "item_path": "/SF/StoreItems/Types/Recipes/Weapons/MendicantGreatSwordMeleeWeaponBlueprint",
           "count": 6
         },
         {
@@ -24890,6 +25243,16 @@
           "count": 6
         },
         {
+          "item": "Cenotaph",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/CorruptedScimitar/CorruptedScimitarMeleeWeapon",
+          "count": 6
+        },
+        {
+          "item": "Silistavf",
+          "item_path": "/SF/StoreItems/Weapons/Ranged/OneHand/OdeStaffCaster/OdeStaffCasterRangedMeleeWeapon",
+          "count": 6
+        },
+        {
           "item": "Purity",
           "item_path": "/SF/StoreItems/Weapons/Melee/TwoHand/MendicantGreatSword/MendicantGreatSwordMeleeWeapon",
           "count": 6
@@ -24900,7 +25263,7 @@
           "count": 8
         },
         {
-          "item": "Sinecure Bow Ranged Melee Weapon",
+          "item": "Avex",
           "item_path": "/SF/StoreItems/Weapons/Ranged/TwoHand/SinecureBow/SinecureBowRangedMeleeWeapon",
           "count": 6
         },
@@ -25269,6 +25632,11 @@
     "RiverPearlResource": {
       "item_path": "/SF/Types/PickUps/Resources/Organics/RiverPearlResource",
       "used_by": [
+        {
+          "item": "Pensive's Bonnet",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Helmets/OrlickHelmet",
+          "count": 4
+        },
         {
           "item": "Bascinet of The Mendicant King",
           "item_path": "/SF/StoreItems/Upgrades/Skins/Helmets/MendicantKingHelmet",
@@ -25700,6 +26068,11 @@
           "count": 6
         },
         {
+          "item": "Navalha",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/SeedRapier/SeedRapierMeleeWeapon",
+          "count": 8
+        },
+        {
           "item": "Gathannan",
           "item_path": "/SF/StoreItems/Weapons/Melee/TwoHand/GarrenPolearm/GarrenPolearmMeleeWeapon",
           "count": 8
@@ -25753,6 +26126,16 @@
           "item": "Steelsinger's Stithywicks",
           "item_path": "/SF/StoreItems/Upgrades/Skins/Body/TuvalkaneBody",
           "count": 30
+        },
+        {
+          "item": "Mestra's Furbelow",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Body/FencerBody",
+          "count": 30
+        },
+        {
+          "item": "Mestra's Helm",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Helmets/FencerHelmet",
+          "count": 20
         },
         {
           "item": "Arbearer's Mask",
@@ -25880,6 +26263,11 @@
           "count": 25
         },
         {
+          "item": "Avex",
+          "item_path": "/SF/StoreItems/Types/Recipes/Weapons/SinecureBowRangedMeleeWeaponBlueprint",
+          "count": 15
+        },
+        {
           "item": "Basker's Wrest",
           "item_path": "/SF/StoreItems/Types/Recipes/Weapons/FennCastingDeviceRangedMeleeWeaponBlueprint",
           "count": 25
@@ -25915,19 +26303,9 @@
           "count": 25
         },
         {
-          "item": "Ode Soldier Sword Melee Weapon Blueprint",
-          "item_path": "/SF/StoreItems/Types/Recipes/Weapons/OdeSoldierSwordMeleeWeaponBlueprint",
-          "count": 25
-        },
-        {
           "item": "Precklies",
           "item_path": "/SF/StoreItems/Types/Recipes/Weapons/SecondaryStarterThrowingKnivesRangedMeleeWeaponBlueprint",
           "count": 10
-        },
-        {
-          "item": "Sinecure Bow Ranged Melee Weapon Blueprint",
-          "item_path": "/SF/StoreItems/Types/Recipes/Weapons/SinecureBowRangedMeleeWeaponBlueprint",
-          "count": 15
         },
         {
           "item": "Skílter",
@@ -25995,6 +26373,16 @@
           "count": 20
         },
         {
+          "item": "Brass Ingot",
+          "item_path": "/SF/StoreItems/Types/PickUps/Resources/Ingots/BrassIngotResourceItem",
+          "count": 20
+        },
+        {
+          "item": "Duelo",
+          "item_path": "/SF/StoreItems/Souls/Fencer/FencerSoul",
+          "count": 55
+        },
+        {
           "item": "Unfused Artifact",
           "item_path": "/SF/StoreItems/Types/Items/Kintsugi/Armor/KintsugiArmourUpgradeStarterSpiritHelm",
           "count": 15
@@ -26030,6 +26418,11 @@
           "count": 25
         },
         {
+          "item": "Falx",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
+          "count": 25
+        },
+        {
           "item": "Bog & Myrtle",
           "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/DendritSwordAndBoard/DendritSwordAndBoardMeleeWeapon",
           "count": 25
@@ -26048,11 +26441,6 @@
           "item": "Needleseye",
           "item_path": "/SF/StoreItems/Weapons/Melee/TwoHand/DendritAraGreatSword/DendritAraGreatSwordMeleeWeapon",
           "count": 20
-        },
-        {
-          "item": "Ode Soldier Sword Melee Weapon",
-          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/OdeSoldierSword/OdeSoldierSwordMeleeWeapon",
-          "count": 25
         },
         {
           "item": "Stultin",
@@ -26075,6 +26463,11 @@
           "count": 15
         },
         {
+          "item": "Avex",
+          "item_path": "/SF/StoreItems/Weapons/Ranged/TwoHand/SinecureBow/SinecureBowRangedMeleeWeapon",
+          "count": 15
+        },
+        {
           "item": "Basker's Wrest",
           "item_path": "/SF/StoreItems/Weapons/Ranged/OneHand/FennCastingDevice/FennCastingDeviceRangedMeleeWeapon",
           "count": 25
@@ -26093,11 +26486,6 @@
           "item": "Precklies",
           "item_path": "/SF/StoreItems/Weapons/Ranged/Thrown/SecondaryStarterThrowingKnives/SecondaryStarterThrowingKnivesRangedMeleeWeapon",
           "count": 10
-        },
-        {
-          "item": "Sinecure Bow Ranged Melee Weapon",
-          "item_path": "/SF/StoreItems/Weapons/Ranged/TwoHand/SinecureBow/SinecureBowRangedMeleeWeapon",
-          "count": 15
         },
         {
           "item": "Skílter",
@@ -26565,6 +26953,11 @@
           "count": 45
         },
         {
+          "item": "Iron Ingot",
+          "item_path": "/SF/StoreItems/Types/PickUps/Resources/Ingots/IronIngotResourceItem",
+          "count": 20
+        },
+        {
           "item": "Circade's Greaves",
           "item_path": "/SF/StoreItems/Types/Items/Kintsugi/Armor/KintsugiArmourUpgradeCircadeLegs",
           "count": 20
@@ -26670,6 +27063,16 @@
           "count": 55
         },
         {
+          "item": "Espadarte",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/PirateFencingSword/PirateFencingSwordMeleeWeapon",
+          "count": 20
+        },
+        {
+          "item": "Navalha",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/SeedRapier/SeedRapierMeleeWeapon",
+          "count": 20
+        },
+        {
           "item": "Bog & Myrtle",
           "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/DendritSwordAndBoard/DendritSwordAndBoardMeleeWeapon",
           "count": 25
@@ -26773,6 +27176,11 @@
           "item": "Tethren's Tunic",
           "item_path": "/SF/StoreItems/Upgrades/Skins/Body/StarterCourageBody",
           "count": 15
+        },
+        {
+          "item": "Mestra's Breeches",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Legs/FencerLegs",
+          "count": 30
         },
         {
           "item": "Armet of Orengall",
@@ -27290,6 +27698,21 @@
           "count": 30
         },
         {
+          "item": "Espadarte",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/PirateFencingSword/PirateFencingSwordMeleeWeapon",
+          "count": 20
+        },
+        {
+          "item": "Lyke-Wake",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/MendicantSwordandBoard/MendicantSwordAndBoardMeleeWeapon",
+          "count": 20
+        },
+        {
+          "item": "Navalha",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/SeedRapier/SeedRapierMeleeWeapon",
+          "count": 20
+        },
+        {
           "item": "Clivers",
           "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/StarterSplitSwords/StarterSplitSwordsMeleeWeapon",
           "count": 20
@@ -27436,6 +27859,16 @@
         }
       ]
     },
+    "SecondaryStarterThrowingKnivesRangedMeleeWeapon": {
+      "item_path": "/SF/Weapons/Ranged/Thrown/SecondaryStarterThrowingKnives/SecondaryStarterThrowingKnivesRangedMeleeWeapon",
+      "used_by": [
+        {
+          "item": "Precklies",
+          "item_path": "/SF/StoreItems/Weapons/Ranged/Thrown/SecondaryStarterThrowingKnives/SecondaryStarterThrowingKnivesRangedMeleeWeapon",
+          "count": 1
+        }
+      ]
+    },
     "SecondaryThrowingKnivesRangedMeleeWeapon": {
       "item_path": "/SF/Weapons/Ranged/Thrown/SecondaryThrowingKnives/SecondaryThrowingKnivesRangedMeleeWeapon",
       "used_by": [
@@ -27490,6 +27923,11 @@
           "count": 20
         },
         {
+          "item": "Lyke-Wake",
+          "item_path": "/SF/StoreItems/Weapons/Melee/OneHand/MendicantSwordandBoard/MendicantSwordAndBoardMeleeWeapon",
+          "count": 20
+        },
+        {
           "item": "Purity",
           "item_path": "/SF/StoreItems/Weapons/Melee/TwoHand/MendicantGreatSword/MendicantGreatSwordMeleeWeapon",
           "count": 15
@@ -27525,7 +27963,7 @@
       "item_path": "/SF/Weapons/Ranged/TwoHand/SinecureBow/SinecureBowRangedMeleeWeapon",
       "used_by": [
         {
-          "item": "Sinecure Bow Ranged Melee Weapon",
+          "item": "Avex",
           "item_path": "/SF/StoreItems/Weapons/Ranged/TwoHand/SinecureBow/SinecureBowRangedMeleeWeapon",
           "count": 1
         }
@@ -28020,6 +28458,11 @@
           "count": 6
         },
         {
+          "item": "Nightshade Ink",
+          "item_path": "/SF/StoreItems/Types/Quests/AncestorProgression/OrlickProgression/QuestAssets/Resources/VerminaInkResource",
+          "count": 6
+        },
+        {
           "item": "Bascinet of The Mendicant King",
           "item_path": "/SF/StoreItems/Types/Items/Kintsugi/Armor/KintsugiArmourUpgradeMendicantKingHelm",
           "count": 25
@@ -28140,6 +28583,11 @@
           "count": 6
         },
         {
+          "item": "Nightshade Ink",
+          "item_path": "/SF/StoreItems/Types/Quests/AncestorProgression/OrlickProgression/QuestAssets/Resources/VerminaInkResource",
+          "count": 12
+        },
+        {
           "item": "Fire King's Kilt",
           "item_path": "/SF/StoreItems/Types/Items/Kintsugi/Armor/KintsugiArmourUpgradeFennJotarLegs",
           "count": 15
@@ -28235,6 +28683,11 @@
           "count": 25
         },
         {
+          "item": "Iron Ingot",
+          "item_path": "/SF/StoreItems/Types/PickUps/Resources/Ingots/IronIngotResourceItem",
+          "count": 10
+        },
+        {
           "item": "Tethren",
           "item_path": "/SF/StoreItems/Souls/Default/ChampionSoul",
           "count": 50
@@ -28308,6 +28761,41 @@
           "item": "Tempest Leathers",
           "item_path": "/SF/StoreItems/Upgrades/Skins/Body/ForgetFireAltBody",
           "count": 30
+        },
+        {
+          "item": "Duelo Ribbon",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Helmets/FencerQuestItemHelmet",
+          "count": 5
+        },
+        {
+          "item": "Mestra's Breeches",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Legs/FencerLegs",
+          "count": 30
+        },
+        {
+          "item": "Mestra's Furbelow",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Body/FencerBody",
+          "count": 30
+        },
+        {
+          "item": "Mestra's Helm",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Helmets/FencerHelmet",
+          "count": 30
+        },
+        {
+          "item": "Pensive's Bonnet",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Helmets/OrlickHelmet",
+          "count": 15
+        },
+        {
+          "item": "Pensive's Cloak",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Body/OrlickBody",
+          "count": 15
+        },
+        {
+          "item": "Pensive's Pantaloons",
+          "item_path": "/SF/StoreItems/Upgrades/Skins/Legs/OrlickLegs",
+          "count": 15
         },
         {
           "item": "Bascinet of The Mendicant King",
