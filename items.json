@@ -2,12 +2,12 @@
   "metadata": {
     "title": "Soulframe - All Items",
     "description": "Every item in Soulframe: weapons, armor, totems, motes, runes, blueprints, resources, materials, currencies, cosmetics, consumables, and more. Each entry includes the internal path, language key for localisation, crafting recipe reference, and required ingredients.",
-    "generated_at": "2026-04-18T08:10:59Z",
+    "generated_at": "2026-04-25T14:27:41Z",
     "source": "Packages.bin (H.Misc cache) + Languages.json + crafting_recipes.json",
-    "total_items": 1331,
+    "total_items": 1333,
     "categories": {
       "Armor": 81,
-      "Blueprint": 289,
+      "Blueprint": 290,
       "Booster": 10,
       "Bundle": 32,
       "Consumable": 32,
@@ -24,7 +24,7 @@
       "Slot Item": 3,
       "Soul": 20,
       "Store Item": 11,
-      "Technique": 94,
+      "Technique": 95,
       "Totem": 23,
       "Weapon": 59
     },
@@ -4792,7 +4792,7 @@
         {
           "item": "WevetWoodSapResource",
           "item_path": "/SF/Types/PickUps/Resources/Organics/Sap/WevetWoodSapResource",
-          "count": 10
+          "count": 8
         },
         {
           "item": "AgaricMushroomResource",
@@ -7739,7 +7739,7 @@
       "unique_name": "MendicantSwordAndBoardMeleeWeaponBlueprint",
       "path": "/SF/StoreItems/Types/Recipes/Weapons/Melee/Blueprints/MendicantSwordAndBoardMeleeWeaponBlueprint",
       "lang_key": "/SF/Language/Weapons/MendicantSwordAndBoardMeleeWeaponName",
-      "lang_desc_key": null,
+      "lang_desc_key": "/SF/Language/Weapons/MendicantSwordAndBoardMeleeWeaponDesc",
       "category": "Blueprint",
       "subcategory": "Weapons",
       "rarity": "UNCOMMON",
@@ -8084,6 +8084,17 @@
       ]
     },
     {
+      "name": "Pirate Fencing Sword Melee Weapon Fragment",
+      "unique_name": "PirateFencingSwordMeleeWeaponFragment",
+      "path": "/SF/Types/Recipes/Weapons/Melee/Fragments/PirateFencingSwordMeleeWeaponFragment",
+      "lang_key": null,
+      "lang_desc_key": null,
+      "category": "Blueprint",
+      "subcategory": "Weapons",
+      "rarity": null,
+      "icon": null
+    },
+    {
       "name": "Precklies",
       "unique_name": "SecondaryStarterThrowingKnivesRangedMeleeWeaponBlueprint",
       "path": "/SF/StoreItems/Types/Recipes/Weapons/SecondaryStarterThrowingKnivesRangedMeleeWeaponBlueprint",
@@ -8342,7 +8353,7 @@
       "lang_desc_key": "/SF/Language/Weapons/OdeStaffCasterRangedMeleeWeaponDesc",
       "category": "Blueprint",
       "subcategory": "Weapons",
-      "rarity": "UNCOMMON",
+      "rarity": "RARE",
       "icon": "/SF/Interface/Graphics/StoreItems/Weapons/OdeStaff.png",
       "crafting_recipe": "/SF/StoreItems/Types/Recipes/Weapons/Caster/Blueprints/OdeStaffCasterRangedMeleeWeaponBlueprint",
       "ingredients": [
@@ -10143,7 +10154,7 @@
         {
           "item": "WevetWoodSapResource",
           "item_path": "/SF/Types/PickUps/Resources/Organics/Sap/WevetWoodSapResource",
-          "count": 10
+          "count": 8
         },
         {
           "item": "AgaricMushroomResource",
@@ -11938,11 +11949,11 @@
       "icon": "/SF/Interface/Graphics/StoreItems/Tools/SapTap.png"
     },
     {
-      "name": "Verminia Resource Gathering Tool",
+      "name": "Sap Tap",
       "unique_name": "VerminiaResourceGatheringTool",
-      "path": "/SF/StoreItems/Types/Items/AncestorItems/VerminiaResourceGatheringTool",
-      "lang_key": "/SF/Language/Syndicates/FeyInitiationToken",
-      "lang_desc_key": "/SF/Language/Syndicates/FeyInitiationTokenDesc",
+      "path": "/SF/Types/Items/AncestorItems/VerminiaResourceGatheringTool",
+      "lang_key": "/SF/Language/Items/VerminiaTool_SapTapperName",
+      "lang_desc_key": "/SF/Language/Items/VerminiaTool_SapTapperDec",
       "category": "Key Item",
       "subcategory": "Ancestor Item",
       "rarity": null,
@@ -13029,6 +13040,72 @@
           "count": 25
         }
       ]
+    },
+    {
+      "name": "Gildaur: Blessed by Iridis",
+      "unique_name": "KintsugiUpgradeDefenseUC",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseUC",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT2",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
+    },
+    {
+      "name": "Gildaur: Blessed by Mora",
+      "unique_name": "KintsugiUpgradeDefenseC",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseC",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalName",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
+    },
+    {
+      "name": "Gildaur: Blessed by Saphene",
+      "unique_name": "KintsugiUpgradeDefenseR",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseR",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT3",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
+    },
+    {
+      "name": "Gildaur: Thrice Blessed by Iridis",
+      "unique_name": "KintsugiUpgradeDefenseSRS",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseSRS",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT4S",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
+    },
+    {
+      "name": "Gildaur: Thrice Blessed by Mora",
+      "unique_name": "KintsugiUpgradeDefenseSRC",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseSRC",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT4C",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
+    },
+    {
+      "name": "Gildaur: Thrice Blessed by Saphene",
+      "unique_name": "KintsugiUpgradeDefenseSRG",
+      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseSRG",
+      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT4G",
+      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
+      "category": "Kintsugi",
+      "subcategory": "Weapon Upgrade Material",
+      "rarity": "RARE",
+      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
     },
     {
       "name": "Great Helm of The Fire King",
@@ -14137,17 +14214,6 @@
     },
     {
       "name": "Verite: Blessed by Iridis",
-      "unique_name": "KintsugiUpgradeDefenseUC",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseUC",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT2",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": null,
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
-    },
-    {
-      "name": "Verite: Blessed by Iridis",
       "unique_name": "KintsugiUpgradeMeleeUC",
       "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeMeleeUC",
       "lang_key": "/SF/Language/Materials/KintsugiMaterialMeleeNameT2",
@@ -14156,17 +14222,6 @@
       "subcategory": "Weapon Upgrade Material",
       "rarity": null,
       "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi5.png"
-    },
-    {
-      "name": "Verite: Blessed by Mora",
-      "unique_name": "KintsugiUpgradeDefenseC",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseC",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalName",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": null,
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
     },
     {
       "name": "Verite: Blessed by Mora",
@@ -14181,17 +14236,6 @@
     },
     {
       "name": "Verite: Blessed by Saphene",
-      "unique_name": "KintsugiUpgradeDefenseR",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseR",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT3",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": null,
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
-    },
-    {
-      "name": "Verite: Blessed by Saphene",
       "unique_name": "KintsugiUpgradeMeleeR",
       "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeMeleeR",
       "lang_key": "/SF/Language/Materials/KintsugiMaterialMeleeNameT3",
@@ -14200,39 +14244,6 @@
       "subcategory": "Weapon Upgrade Material",
       "rarity": null,
       "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi5.png"
-    },
-    {
-      "name": "Verite: Thrice Blessed by Iridis",
-      "unique_name": "KintsugiUpgradeDefenseSRS",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseSRS",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT4S",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
-    },
-    {
-      "name": "Verite: Thrice Blessed by Mora",
-      "unique_name": "KintsugiUpgradeDefenseSRC",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseSRC",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT4C",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
-    },
-    {
-      "name": "Verite: Thrice Blessed by Saphene",
-      "unique_name": "KintsugiUpgradeDefenseSRG",
-      "path": "/SF/StoreItems/Types/Items/Kintsugi/Weapons/KintsugiUpgradeDefenseSRG",
-      "lang_key": "/SF/Language/Materials/KintsugiMaterialUniversalNameT4G",
-      "lang_desc_key": "/SF/Language/Materials/KintsugiMaterialUniversalDesc",
-      "category": "Kintsugi",
-      "subcategory": "Weapon Upgrade Material",
-      "rarity": "RARE",
-      "icon": "/SF/Interface/Graphics/StoreItems/Materials/Kintsugi4.png"
     },
     {
       "name": "Verite: Twice Blessed by Iridis",
@@ -19623,7 +19634,7 @@
       "unique_name": "SecondaryThrowingKnivesSkillTree",
       "path": "/SF/StoreItems/Upgrades/Techniques/SecondaryThrowingKnivesSkillTree",
       "lang_key": "/SF/Language/Skills/ThrowingKnivesSkill",
-      "lang_desc_key": "/Lotus/Language/Items/EmptyArtifactDesc",
+      "lang_desc_key": null,
       "category": "Technique",
       "subcategory": "General",
       "rarity": null,
@@ -19656,7 +19667,7 @@
       "unique_name": "CastingSkillTree",
       "path": "/SF/StoreItems/Upgrades/Techniques/CastingSkillTree",
       "lang_key": "/SF/Language/Skills/CastSkill",
-      "lang_desc_key": "/Lotus/Language/Items/EmptyArtifactDesc",
+      "lang_desc_key": null,
       "category": "Technique",
       "subcategory": "General",
       "rarity": null,
@@ -19826,6 +19837,17 @@
       "subcategory": "Greatsword",
       "rarity": null,
       "icon": "/SF/Interface/Graphics/WeaponProgression/OffensiveNode.png"
+    },
+    {
+      "name": "[PH] PERFECT DODGE",
+      "unique_name": "PerfectDodgeSkill",
+      "path": "/SF/Upgrades/Techniques/Sword/PerfectDodgeSkill",
+      "lang_key": "/SF/Language/Skills/PerfectDodgeName",
+      "lang_desc_key": "/SF/Language/Skills/PerfectDodgeDesc",
+      "category": "Technique",
+      "subcategory": "Long Blade",
+      "rarity": null,
+      "icon": "/SF/Interface/Graphics/WeaponProgression/DefensiveNode.png"
     },
     {
       "name": "Cultivate",
@@ -30048,7 +30070,7 @@
         {
           "item": "The Cogah",
           "item_path": "/SF/StoreItems/Types/Recipes/Elixers/RednightElixerRecipeItem",
-          "count": 10
+          "count": 8
         },
         {
           "item": "Arbearer's Braes",
@@ -30068,7 +30090,7 @@
         {
           "item": "The Cogah",
           "item_path": "/SF/StoreItems/Types/Items/Consumables/RedNightElixir",
-          "count": 10
+          "count": 8
         },
         {
           "item": "Arbearer's Braes",
